@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.orange.tests.LoginTest">
+      <class name="com.orange.tests.DashboardTest">
         <methods>
           <include name="setUpConfig"/>
-          <include name="loginTest"/>
           <include name="quitDriver"/>
           <include name="setDriver"/>
+          <include name="dashboardTest"/>
         </methods>
-      </class> <!-- com.orange.tests.LoginTest -->
+      </class> <!-- com.orange.tests.DashboardTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

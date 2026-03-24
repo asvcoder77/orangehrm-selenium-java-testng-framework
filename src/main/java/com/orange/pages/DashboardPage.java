@@ -11,6 +11,8 @@ public class DashboardPage extends BasePage{
 	@FindBy(css="button[size='largee']")
 	private WebElement upgradebutton;
 	
+	@FindBy(css="a[href='http://www.orangehrm.com']")
+	private WebElement bottemlink;
 
 	@Override
 	public boolean isAt() {
@@ -18,5 +20,10 @@ public class DashboardPage extends BasePage{
 		this.wait.until(ExpectedConditions.visibilityOf(upgradebutton));
 		return this.upgradebutton.isDisplayed();
 	}
+	
 
-}
+		
+		
+	}
+
+
