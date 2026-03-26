@@ -15,7 +15,7 @@ public abstract class BasePage {
 	protected JavascriptExecutor js;
 	public BasePage() {
 		this.driver=DriverManager.getDriver();
-		this.wait=new WebDriverWait(driver,Duration.ofSeconds(60));
+		this.wait=new WebDriverWait(driver,Duration.ofSeconds(30));
 		this.js=(JavascriptExecutor) driver;
 		PageFactory.initElements(driver, this);
 	}
@@ -27,7 +27,7 @@ public void scrollToElement(WebElement element)	{
 	js.executeScript("arguments[0].scrollIntoView({block: 'center'});", element);
 }
 //Scroll to bottom
-public void scrollToBottom() {
+public void scrollToBottom() throws InterruptedException {
 	js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 	
 }	

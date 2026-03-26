@@ -14,6 +14,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.ITestContext;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
@@ -65,7 +66,7 @@ public class BaseTest {
 		WebDriverManager.chromedriver().setup();
 		return new ChromeDriver();
 	}
-	@AfterTest
+	@AfterMethod
 	public void quitDriver() {
 		DriverManager.getDriver().quit();
 		DriverManager.unload();
