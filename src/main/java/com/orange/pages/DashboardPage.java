@@ -21,8 +21,12 @@ public class DashboardPage extends BasePage{
 	@Override
 	public boolean isAt() {
 		// TODO Auto-generated method stub
-		this.wait.until(ExpectedConditions.elementToBeClickable(upgradebutton));
+		wait.until(ExpectedConditions.elementToBeClickable(upgradebutton));
 		return this.upgradebutton.isDisplayed();
+	}
+	
+	public void scrollToDown() throws InterruptedException {
+		scrollToBottom();
 	}
 	
 	public boolean isBottemLinkVisible() {
@@ -30,7 +34,7 @@ public class DashboardPage extends BasePage{
 		
 	}
 	public TimePage clickTimeButton() {
-		this.wait.until(ExpectedConditions.elementToBeClickable(time)).click();
+		wait.until(ExpectedConditions.elementToBeClickable(time)).click();
 		return new TimePage();
 		
 	}

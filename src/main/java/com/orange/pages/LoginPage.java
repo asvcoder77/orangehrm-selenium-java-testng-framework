@@ -18,16 +18,16 @@ public class LoginPage extends BasePage{
 
 	@Override
 	public boolean isAt() {
-		this.wait.until(ExpectedConditions.visibilityOf(this.submit));
+		wait.until(ExpectedConditions.visibilityOf(this.submit));
 		return this.submit.isDisplayed();
 	}
 	
 	public DashboardPage login(String usr,String pass) {
-		this.wait.until(ExpectedConditions.visibilityOf(this.username));
+		wait.until(ExpectedConditions.visibilityOf(this.username));
 		username.sendKeys(usr);
-		this.wait.until(ExpectedConditions.visibilityOf(this.password));
+		wait.until(ExpectedConditions.visibilityOf(this.password));
 		password.sendKeys(pass);
-		this.wait.until(ExpectedConditions.visibilityOf(this.submit));
+		wait.until(ExpectedConditions.visibilityOf(this.submit));
 		submit.click();
 		return new DashboardPage();
 		

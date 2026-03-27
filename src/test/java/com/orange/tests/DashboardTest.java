@@ -24,8 +24,8 @@ public class DashboardTest extends BaseTest {
 	
 	@Test(description="Verify user is able to scroll to bottem in dashboard page")
 	public void verifyDashboardScrollable() throws InterruptedException {
-		//Scroll till bottemlink
-		dashboardPage.scrollToBottom();
+		//Scroll till down
+		dashboardPage.scrollToDown();
 		//verify scrolled till bottem
 		System.out.println(dashboardPage.isBottemLinkVisible()
 		? "Reached bottem,scroll success" : "Scroll failed");

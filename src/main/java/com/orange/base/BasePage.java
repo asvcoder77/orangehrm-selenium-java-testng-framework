@@ -22,13 +22,20 @@ public abstract class BasePage {
 	public abstract boolean isAt();
 	
 //Scroll to specific element
-public void scrollToElement(WebElement element)	{
+protected void scrollToElement(WebElement element)	{
 	wait.until(ExpectedConditions.visibilityOf(element));
 	js.executeScript("arguments[0].scrollIntoView({block: 'center'});", element);
 }
 //Scroll to bottom
-public void scrollToBottom() throws InterruptedException {
+protected void scrollToBottom() throws InterruptedException {
 	js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 	
 }	
+//Waits until all provided WebElements are visible on the page.
+protected void waitForVisibilityOfElements(WebElement...elements) {
+	for(WebElement element:elements) {
+		wait.until(ExpectedConditions.visibilityOf(element));
+	}
+	
+}
 }
