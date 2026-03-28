@@ -1,5 +1,7 @@
 package com.orange.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -22,6 +24,15 @@ public class TimePage extends BasePage {
 	
 	@FindBy(css="i.bi-calendar")
 	private WebElement dateentrybtn;
+	
+	@FindBy(css="input[placeholder='yyyy-dd-mm']")
+	private WebElement dateinput;
+	
+	@FindBy(css="ul.oxd-dropdown-menu a")
+	private List<WebElement> attendancedropdownvalues;
+	
+	@FindBy(css="button[type='submit']")
+	private WebElement view;
 
 	@Override
 	public boolean isAt() {
@@ -36,5 +47,16 @@ public class TimePage extends BasePage {
 	public void enterDate() {
 		wait.until(ExpectedConditions.elementToBeClickable(dateentrybtn)).click();
 		
+	}
+	public void selectMyRecords() {
+		wait.until(ExpectedConditions.elementToBeClickable(attendance));
+		attendance.click();
+		wait.until(ExpectedConditions.visibilityOfAllElements(attendancedropdownvalues));
+		selectElementByText(attendancedropdownvalues,"My Records").click();	
+	}
+	
+	public boolean verifyViewButtonPresent(){
+		wait.until(ExpectedConditions.elementToBeClickable(view));
+		return view.isDisplayed();
 	}
 }

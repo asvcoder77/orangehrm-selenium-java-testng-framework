@@ -1,6 +1,7 @@
 package com.orange.base;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -38,4 +39,16 @@ protected void waitForVisibilityOfElements(WebElement...elements) {
 	}
 	
 }
+//Returns the WebElement from the list that matches the given visible text
+protected WebElement selectElementByText(List<WebElement>elements,String text) {
+	for(WebElement element: elements) {
+		if(element.getText().trim().equalsIgnoreCase(text)){
+			return element;	
+		}
+	}
+	throw new RuntimeException("No element found with text: "+text);
+	
+}
+
+
 }

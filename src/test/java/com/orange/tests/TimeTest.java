@@ -30,6 +30,12 @@ public class TimeTest extends BaseTest{
 	public void verifyAllElementsPresent() {
 		timePage.verifyDashboardElements();	
 	}
+	@Test(description="Verify my records option is clickable")
+		public void verifyMyRecords() {
+			timePage.selectMyRecords();
+			Assert.assertTrue(timePage.verifyViewButtonPresent(),"My records option not loaded");
+		}
+	
 	
 	
 
