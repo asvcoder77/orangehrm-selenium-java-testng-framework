@@ -19,12 +19,14 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 
+import com.orange.listeners.TestListeners;
 import com.orange.utils.Config;
 import com.orange.utils.Constants;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
+@Listeners(TestListeners.class)
 public class BaseTest {
 
 	private static final Logger log = LoggerFactory.getLogger(BaseTest.class);

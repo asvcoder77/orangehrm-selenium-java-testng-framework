@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>RegressionTests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Mar 29 16:54:09 IST 2026</td>
+<td>Started on:</td><td>Mon Mar 30 02:09:26 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>44 seconds (44333 ms)</td>
+<tr><td>Total time:</td><td>54 seconds (54697 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,64 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.orange.tests.LoginTest.verifyLoginSuccess()'><b>verifyLoginSuccess</b><br>Test class: com.orange.tests.LoginTest<br>Test method: Verify login works successfully and goes to dashboardpage</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;button[size=&apos;large&apos;]&quot;}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\vishn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54931}, goog:processID: 26628, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54931/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f781873f2611ff6988888cdf26bc233
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+	at com.orange.pages.DashboardPage.isAt(DashboardPage.java:24)
+	at com.orange.tests.LoginTest.verifyLoginSuccess(LoginTest.java:24)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1614000866", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1614000866'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;button[size=&apos;large&apos;]&quot;}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\vishn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54931}, goog:processID: 26628, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54931/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f781873f2611ff6988888cdf26bc233
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+	at com.orange.pages.DashboardPage.isAt(DashboardPage.java:24)
+	at com.orange.tests.LoginTest.verifyLoginSuccess(LoginTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>32</td>
+<td>com.orange.tests.LoginTest@2f8dad04</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,40 +134,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.orange.tests.DashboardTest.verifyTimeClickable()'><b>verifyTimeClickable</b><br>Test class: com.orange.tests.DashboardTest<br>Test method: Verify time button is clicking navigating to Timepage</td>
-<td></td>
-<td>3</td>
-<td>com.orange.tests.DashboardTest@a3d8174</td></tr>
-<tr>
-<td title='com.orange.tests.LoginTest.verifyLoginSuccess()'><b>verifyLoginSuccess</b><br>Test class: com.orange.tests.LoginTest<br>Test method: Verify login works successfully and goes to dashboardpage</td>
-<td></td>
-<td>3</td>
-<td>com.orange.tests.LoginTest@2f8dad04</td></tr>
-<tr>
-<td title='com.orange.tests.TimeTest.verifyAllElementsPresent()'><b>verifyAllElementsPresent</b><br>Test class: com.orange.tests.TimeTest<br>Test method: Verify all the UI elements are shown in page</td>
-<td></td>
-<td>0</td>
-<td>com.orange.tests.TimeTest@550ee7e5</td></tr>
-<tr>
 <td title='com.orange.tests.TimeTest.verifyMyRecords()'><b>verifyMyRecords</b><br>Test class: com.orange.tests.TimeTest<br>Test method: Verify my records option is clickable</td>
 <td></td>
 <td>3</td>
 <td>com.orange.tests.TimeTest@550ee7e5</td></tr>
-<tr>
-<td title='com.orange.tests.LoginTest.verifyLoginPage()'><b>verifyLoginPage</b><br>Test class: com.orange.tests.LoginTest<br>Test method: Verify loginpage is displayed when URL is loaded</td>
-<td></td>
-<td>1</td>
-<td>com.orange.tests.LoginTest@2f8dad04</td></tr>
 <tr>
 <td title='com.orange.tests.DashboardTest.verifyDashboardScrollable()'><b>verifyDashboardScrollable</b><br>Test class: com.orange.tests.DashboardTest<br>Test method: Verify user is able to scroll to bottem in dashboard page</td>
 <td></td>
 <td>0</td>
 <td>com.orange.tests.DashboardTest@a3d8174</td></tr>
 <tr>
-<td title='com.orange.tests.TimeTest.verifyTimePageLoaded()'><b>verifyTimePageLoaded</b><br>Test class: com.orange.tests.TimeTest<br>Test method: Verify timepage loaded successfully</td>
+<td title='com.orange.tests.TimeTest.verifyAllElementsPresent()'><b>verifyAllElementsPresent</b><br>Test class: com.orange.tests.TimeTest<br>Test method: Verify all the UI elements are shown in page</td>
 <td></td>
 <td>0</td>
 <td>com.orange.tests.TimeTest@550ee7e5</td></tr>
+<tr>
+<td title='com.orange.tests.TimeTest.verifyTimePageLoaded()'><b>verifyTimePageLoaded</b><br>Test class: com.orange.tests.TimeTest<br>Test method: Verify timepage loaded successfully</td>
+<td></td>
+<td>1</td>
+<td>com.orange.tests.TimeTest@550ee7e5</td></tr>
+<tr>
+<td title='com.orange.tests.DashboardTest.verifyTimeClickable()'><b>verifyTimeClickable</b><br>Test class: com.orange.tests.DashboardTest<br>Test method: Verify time button is clicking navigating to Timepage</td>
+<td></td>
+<td>3</td>
+<td>com.orange.tests.DashboardTest@a3d8174</td></tr>
+<tr>
+<td title='com.orange.tests.LoginTest.verifyLoginPage()'><b>verifyLoginPage</b><br>Test class: com.orange.tests.LoginTest<br>Test method: Verify loginpage is displayed when URL is loaded</td>
+<td></td>
+<td>1</td>
+<td>com.orange.tests.LoginTest@2f8dad04</td></tr>
 </table><p>
 </body>
 </html>
