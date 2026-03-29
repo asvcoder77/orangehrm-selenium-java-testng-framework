@@ -1,0 +1,8 @@
+<suite name="MasterSuite">
+
+    <suite-files>
+        <suite-file path="src/test/resources/suites/smoke.xml"/>
+        <suite-file path="src/test/resources/suites/regression.xml"/>
+    </suite-files>
+
+</suite>

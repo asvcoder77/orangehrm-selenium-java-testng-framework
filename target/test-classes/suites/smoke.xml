@@ -1,0 +1,13 @@
+<suite name="SmokeSuite">
+
+    <test name="SmokeTests">
+        <classes>
+            <class name="com.orange.tests.LoginTest">
+                <methods>
+                    <include name="verifyLoginSuccess"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

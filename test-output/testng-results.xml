@@ -1,40 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-29T02:14:00 IST" name="Default suite" finished-at="2026-03-29T02:14:17 IST" duration-ms="16902">
+  <suite started-at="2026-03-29T17:03:20 IST" name="SmokeSuite" finished-at="2026-03-29T17:03:40 IST" duration-ms="19245">
     <groups>
     </groups>
-    <test started-at="2026-03-29T02:14:00 IST" name="Default test" finished-at="2026-03-29T02:14:17 IST" duration-ms="16902">
-      <class name="com.orange.tests.TimeTest">
-        <test-method is-config="true" signature="setUpConfig()[pri:0, instance:com.orange.tests.TimeTest@4e096385]" started-at="2026-03-29T02:14:00 IST" name="setUpConfig" finished-at="2026-03-29T02:14:00 IST" duration-ms="9" status="PASS">
+    <test started-at="2026-03-29T17:03:20 IST" name="SmokeTests" finished-at="2026-03-29T17:03:40 IST" duration-ms="19245">
+      <class name="com.orange.tests.LoginTest">
+        <test-method is-config="true" signature="setUpConfig()[pri:0, instance:com.orange.tests.LoginTest@4e7912d8]" started-at="2026-03-29T17:03:20 IST" name="setUpConfig" finished-at="2026-03-29T17:03:20 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpConfig -->
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.TimeTest@4e096385]" started-at="2026-03-29T02:14:00 IST" name="setDriver" finished-at="2026-03-29T02:14:07 IST" duration-ms="7367" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.LoginTest@4e7912d8]" started-at="2026-03-29T17:03:20 IST" name="setDriver" finished-at="2026-03-29T17:03:34 IST" duration-ms="13808" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7c3ebc6b]]>
+                <![CDATA[org.testng.TestRunner@27aae97b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setUpTimePage()[pri:0, instance:com.orange.tests.TimeTest@4e096385]" started-at="2026-03-29T02:14:07 IST" name="setUpTimePage" finished-at="2026-03-29T02:14:13 IST" duration-ms="5860" status="PASS">
+        <test-method signature="verifyLoginSuccess()[pri:0, instance:com.orange.tests.LoginTest@4e7912d8]" started-at="2026-03-29T17:03:34 IST" name="verifyLoginSuccess" description="Verify login works successfully and goes to dashboardpage" finished-at="2026-03-29T17:03:39 IST" duration-ms="4535" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpTimePage -->
-        <test-method signature="verifyMyRecords()[pri:0, instance:com.orange.tests.TimeTest@4e096385]" started-at="2026-03-29T02:14:13 IST" name="verifyMyRecords" description="Verify my records option is clickable" finished-at="2026-03-29T02:14:16 IST" duration-ms="2946" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMyRecords -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.TimeTest@4e096385]" started-at="2026-03-29T02:14:16 IST" name="quitDriver" finished-at="2026-03-29T02:14:17 IST" duration-ms="705" status="PASS">
+        </test-method> <!-- verifyLoginSuccess -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.LoginTest@4e7912d8]" started-at="2026-03-29T17:03:39 IST" name="quitDriver" finished-at="2026-03-29T17:03:40 IST" duration-ms="874" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- com.orange.tests.TimeTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.orange.tests.LoginTest -->
+    </test> <!-- SmokeTests -->
+  </suite> <!-- SmokeSuite -->
 </testng-results>
