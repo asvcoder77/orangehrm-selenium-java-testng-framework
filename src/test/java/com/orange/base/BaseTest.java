@@ -9,6 +9,7 @@ import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.slf4j.Logger;
@@ -64,9 +65,20 @@ public class BaseTest {
 		log.info("Grid URL: {}", url);
         return new RemoteWebDriver(new URI(url).toURL(), capabilities);
 	}
-	private ChromeDriver getLocalDriver() {
-		WebDriverManager.chromedriver().setup();
-		return new ChromeDriver();
+//	private ChromeDriver getLocalDriver() {
+//		WebDriverManager.chromedriver().setup();
+//		return new ChromeDriver();
+//	}
+	private WebDriver getLocalDriver() {
+		String browser = Config.get(Constants.BROWSER);
+		if("firefox".equalsIgnoreCase(browser)) {
+			WebDriverManager.firefoxdriver().setup();
+			return new FirefoxDriver();
+		}
+		else {
+			WebDriverManager.chromedriver().setup();
+			return new ChromeDriver();
+		}
 	}
 	@AfterMethod
 	public void quitDriver() {
