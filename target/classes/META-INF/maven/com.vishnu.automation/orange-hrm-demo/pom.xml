@@ -8,11 +8,12 @@
 	<name>Orange HRM Automation Framework</name>
 	<description>Selenium TestNG Automation Framework</description>
 	<!-- ✅ Properties go here -->
-    <properties>
-        <suiteXmlFile>src/test/resources/suites/regression.xml</suiteXmlFile>
-        <browser>chrome</browser>
-        <grid>false</grid>
-    </properties>
+	<properties>
+		<suiteXmlFile>src/test/resources/suites/regression.xml</suiteXmlFile>
+		<browser>chrome</browser>
+		<grid>false</grid>
+		<selenium.grid.hubHost>localhost</selenium.grid.hubHost>
+	</properties>
 	<dependencies>
 		<!-- Source:
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -71,29 +72,28 @@
 	<build>
 		<plugins>
 			<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.2.5</version>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.2.5</version>
 
-                <configuration>
+				<configuration>
 
-                    <suiteXmlFiles>
-                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
-                    </suiteXmlFiles>
+					<suiteXmlFiles>
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+					</suiteXmlFiles>
 
-                    <systemPropertyVariables>
-                        <browser>${browser}</browser>
-                        <selenium.grid.enabled>${grid}</selenium.grid.enabled>
-                        <grid.hub.host>${gridHubHost}</grid.hub.host>
-                        <orange.hrm.url>${appUrl}</orange.hrm.url>
-                    </systemPropertyVariables>
-                    <!-- Thread control -->
+					<systemPropertyVariables>
+						<browser>${browser}</browser>
+						<selenium.grid.enabled>${grid}</selenium.grid.enabled>
+						
+					</systemPropertyVariables>
+					<!-- Thread control -->
 					<threadCount>3</threadCount>
 
 					<!-- Reports -->
 					<reportsDirectory>target/surefire-reports</reportsDirectory>
 
-                </configuration>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
