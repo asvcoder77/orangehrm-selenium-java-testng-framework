@@ -17,6 +17,9 @@ public class DashboardPage extends BasePage{
 	@FindBy(css="button.oxd-icon-button--solid-main")
 	private WebElement time;
 	
+	@FindBy(css="a[href='/web/index.php/recruitment/viewRecruitmentModule']")
+	private WebElement recruitment;
+	
 
 	@Override
 	public boolean isAt() {
@@ -36,6 +39,11 @@ public class DashboardPage extends BasePage{
 	public TimePage clickTimeButton() {
 		wait.until(ExpectedConditions.elementToBeClickable(time)).click();
 		return new TimePage();
+		
+	}
+	public RecruitmentPage clickRecruitmentOption() {
+		wait.until(ExpectedConditions.elementToBeClickable(recruitment)).click();
+		return new RecruitmentPage();
 		
 	}
 
