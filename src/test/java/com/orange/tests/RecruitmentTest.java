@@ -22,8 +22,16 @@ public class RecruitmentTest extends BaseTest{
 		recruitementPage = dashboardPage.clickRecruitmentOption();
 	}
 	@Test
-	public void recruitementPageLoaded() {
+	public void verifyRecruitementPageLoaded() {
 		Assert.assertTrue(recruitementPage.isAt(), "Recruitment page is not loaded");
+	}
+	@Test(dependsOnMethods="verifyRecruitementPageLoaded")
+	public void verifySearchCandidate() throws InterruptedException {
+		recruitementPage.clickJobTitleDropdown();
+		recruitementPage.selectJobTitle();
+		
+		
+		
 	}
 
 }
