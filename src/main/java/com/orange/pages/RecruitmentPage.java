@@ -26,6 +26,9 @@ public class RecruitmentPage extends BasePage {
 	@FindBy(xpath="(//div[@class='oxd-select-text--after'])[1]")
 	private WebElement jobtitledropdown;
 	
+	@FindBy(xpath="//button[text()=' Search ']")
+	private WebElement search;
+	
 //	@FindBy(xpath="//div[@role='listbox']/div")
 //	private List <WebElement> jobs;
 	
@@ -41,10 +44,28 @@ public class RecruitmentPage extends BasePage {
 	public void selectJobTitle() {
 		List<WebElement>jobs=wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//div[@role='option']"), 5));
 		System.out.println(jobs.size());
-		jobs.get(5).click();
-		
-		
-		
+		jobs.get(5).click();	
+	}
+	public void clickStatusDropdown() {
+		wait.until(ExpectedConditions.elementToBeClickable(status)).click();
+		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@role='option']")));
+	}
+	public void selectStatus() {
+		List<WebElement>statuses=wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//div[@role='option']"), 7));
+		System.out.println(statuses.size());
+		statuses.get(5).click();
+	}
+	public void clickMethodOfAppDropdown() {
+		wait.until(ExpectedConditions.elementToBeClickable(methodofapp)).click();
+		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@role='option']")));
+	}
+	public void selectMethodOfApp() {
+		List<WebElement>methods=wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//div[@role='option']"), 2));
+		System.out.println(methods.size());
+		methods.get(1).click();
+	}
+	public void clickSearch() {
+		wait.until(ExpectedConditions.elementToBeClickable(search)).click();
 	}
 
 }

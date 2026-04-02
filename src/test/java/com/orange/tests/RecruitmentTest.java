@@ -29,9 +29,11 @@ public class RecruitmentTest extends BaseTest{
 	public void verifySearchCandidate() throws InterruptedException {
 		recruitementPage.clickJobTitleDropdown();
 		recruitementPage.selectJobTitle();
-		
-		
-		
+		recruitementPage.clickStatusDropdown();
+		recruitementPage.selectStatus();
+		recruitementPage.clickMethodOfAppDropdown();
+		recruitementPage.selectMethodOfApp();
+		recruitementPage.clickSearch();
 	}
 
 }
