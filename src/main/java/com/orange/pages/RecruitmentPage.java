@@ -29,8 +29,9 @@ public class RecruitmentPage extends BasePage {
 	@FindBy(xpath="//button[text()=' Search ']")
 	private WebElement search;
 	
-//	@FindBy(xpath="//div[@role='listbox']/div")
-//	private List <WebElement> jobs;
+	@FindBy(xpath="//button[text()=' Add ']")
+	private WebElement add;
+
 	
 	@Override
 	public boolean isAt() {
@@ -67,7 +68,12 @@ public class RecruitmentPage extends BasePage {
 	public void clickSearch() {
 		wait.until(ExpectedConditions.elementToBeClickable(search)).click();
 	}
-
+    public AddCandidatePage clickAddCandidate() {
+    	wait.until(ExpectedConditions.elementToBeClickable(add)).click();
+    	return new AddCandidatePage();
+    	
+    	
+    }
 }
 
 

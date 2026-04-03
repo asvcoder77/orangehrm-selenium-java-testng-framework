@@ -1,63 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-03T02:14:00 IST" name="Default suite" finished-at="2026-04-03T02:14:56 IST" duration-ms="56265">
+  <suite started-at="2026-04-03T16:51:51 IST" name="Default suite" finished-at="2026-04-03T16:52:49 IST" duration-ms="58490">
     <groups>
     </groups>
-    <test started-at="2026-04-03T02:14:00 IST" name="Default test" finished-at="2026-04-03T02:14:56 IST" duration-ms="56265">
-      <class name="com.orange.tests.RecruitmentTest">
-        <test-method is-config="true" signature="setUpConfig()[pri:0, instance:com.orange.tests.RecruitmentTest@59af0466]" started-at="2026-04-03T02:14:00 IST" name="setUpConfig" finished-at="2026-04-03T02:14:00 IST" duration-ms="9" status="PASS">
+    <test started-at="2026-04-03T16:51:51 IST" name="Default test" finished-at="2026-04-03T16:52:49 IST" duration-ms="58490">
+      <class name="com.orange.tests.AddCandidateTest">
+        <test-method is-config="true" signature="setUpConfig()[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:51:51 IST" name="setUpConfig" finished-at="2026-04-03T16:51:51 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpConfig -->
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.RecruitmentTest@59af0466]" started-at="2026-04-03T02:14:00 IST" name="setDriver" finished-at="2026-04-03T02:14:21 IST" duration-ms="20634" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:51:52 IST" name="setDriver" finished-at="2026-04-03T16:51:59 IST" duration-ms="6958" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4acb2510]]>
+                <![CDATA[org.testng.TestRunner@19d53ab4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setUpRecruitmentPage()[pri:0, instance:com.orange.tests.RecruitmentTest@59af0466]" started-at="2026-04-03T02:14:21 IST" name="setUpRecruitmentPage" finished-at="2026-04-03T02:14:26 IST" duration-ms="5728" status="PASS">
+        <test-method is-config="true" signature="setUpAddCandidatePage()[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:51:59 IST" name="setUpAddCandidatePage" finished-at="2026-04-03T16:52:04 IST" duration-ms="5462" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpRecruitmentPage -->
-        <test-method signature="verifyRecruitementPageLoaded()[pri:0, instance:com.orange.tests.RecruitmentTest@59af0466]" started-at="2026-04-03T02:14:26 IST" name="verifyRecruitementPageLoaded" finished-at="2026-04-03T02:14:28 IST" duration-ms="1143" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRecruitementPageLoaded -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.RecruitmentTest@59af0466]" started-at="2026-04-03T02:14:28 IST" name="quitDriver" finished-at="2026-04-03T02:14:29 IST" duration-ms="927" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.RecruitmentTest@59af0466]" started-at="2026-04-03T02:14:29 IST" name="setDriver" finished-at="2026-04-03T02:14:43 IST" duration-ms="14899" status="PASS">
+        </test-method> <!-- setUpAddCandidatePage -->
+        <test-method signature="verifyAddCandidate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:52:04 IST" name="verifyAddCandidate" data-provider="candidateData" finished-at="2026-04-03T16:52:06 IST" duration-ms="1890" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4acb2510]]>
+                <![CDATA[Vishnu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[v1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999999991]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddCandidate -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:52:06 IST" name="quitDriver" finished-at="2026-04-03T16:52:06 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:52:06 IST" name="setDriver" finished-at="2026-04-03T16:52:11 IST" duration-ms="4250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@19d53ab4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setUpRecruitmentPage()[pri:0, instance:com.orange.tests.RecruitmentTest@59af0466]" started-at="2026-04-03T02:14:43 IST" name="setUpRecruitmentPage" finished-at="2026-04-03T02:14:51 IST" duration-ms="7726" status="PASS">
+        <test-method is-config="true" signature="setUpAddCandidatePage()[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:52:11 IST" name="setUpAddCandidatePage" finished-at="2026-04-03T16:52:17 IST" duration-ms="6924" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpRecruitmentPage -->
-        <test-method signature="verifySearchCandidate()[pri:0, instance:com.orange.tests.RecruitmentTest@59af0466]" started-at="2026-04-03T02:14:51 IST" name="verifySearchCandidate" finished-at="2026-04-03T02:14:55 IST" depends-on-methods="com.orange.tests.RecruitmentTest.verifyRecruitementPageLoaded" duration-ms="4132" status="PASS">
+        </test-method> <!-- setUpAddCandidatePage -->
+        <test-method signature="verifyAddCandidate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:52:17 IST" name="verifyAddCandidate" data-provider="candidateData" finished-at="2026-04-03T16:52:19 IST" duration-ms="1665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[v2@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999999992]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchCandidate -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.RecruitmentTest@59af0466]" started-at="2026-04-03T02:14:55 IST" name="quitDriver" finished-at="2026-04-03T02:14:56 IST" duration-ms="1031" status="PASS">
+        </test-method> <!-- verifyAddCandidate -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:52:19 IST" name="quitDriver" finished-at="2026-04-03T16:52:19 IST" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- com.orange.tests.RecruitmentTest -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:52:19 IST" name="setDriver" finished-at="2026-04-03T16:52:24 IST" duration-ms="4414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@19d53ab4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setUpAddCandidatePage()[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:52:24 IST" name="setUpAddCandidatePage" finished-at="2026-04-03T16:52:29 IST" duration-ms="5741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAddCandidatePage -->
+        <test-method signature="verifyAddCandidate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:52:29 IST" name="verifyAddCandidate" data-provider="candidateData" finished-at="2026-04-03T16:52:31 IST" duration-ms="1756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nair]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[v3@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999999993]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddCandidate -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:52:31 IST" name="quitDriver" finished-at="2026-04-03T16:52:31 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:52:31 IST" name="setDriver" finished-at="2026-04-03T16:52:39 IST" duration-ms="7465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@19d53ab4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setUpAddCandidatePage()[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:52:39 IST" name="setUpAddCandidatePage" finished-at="2026-04-03T16:52:47 IST" duration-ms="8260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAddCandidatePage -->
+        <test-method signature="verifyAddCandidate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:52:47 IST" name="verifyAddCandidate" data-provider="candidateData" finished-at="2026-04-03T16:52:49 IST" duration-ms="2192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Das]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[v4@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999999994]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddCandidate -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.AddCandidateTest@29e495ff]" started-at="2026-04-03T16:52:49 IST" name="quitDriver" finished-at="2026-04-03T16:52:49 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.orange.tests.AddCandidateTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
