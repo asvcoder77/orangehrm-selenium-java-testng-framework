@@ -34,7 +34,7 @@ public class AddCandidateTest extends BaseTest {
 	
 	@DataProvider(name="candidateData")
 	public Object[][] getData() throws IOException{
-		return ExcelUtil.getTestData("src/test/resources/testdata/candidatesdetails.xlsx", "sheet1");
+		return ExcelUtil.getTestData("testdata/candidatesdetails.xlsx", "sheet1");
 	}
 	
 	@Test(dataProvider="candidateData")

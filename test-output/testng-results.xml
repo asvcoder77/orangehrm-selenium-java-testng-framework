@@ -1,239 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="16" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-12T14:55:16 IST" name="RegressionSuite" finished-at="2026-04-12T14:56:34 IST" duration-ms="78119">
+  <suite started-at="2026-04-12T20:27:30 IST" name="RegressionSuite" finished-at="2026-04-12T20:29:35 IST" duration-ms="125022">
     <groups>
     </groups>
-    <test started-at="2026-04-12T14:55:16 IST" name="RegressionTests" finished-at="2026-04-12T14:56:34 IST" duration-ms="78119">
+    <test started-at="2026-04-12T20:27:30 IST" name="RegressionTests" finished-at="2026-04-12T20:29:35 IST" duration-ms="125022">
       <class name="com.orange.tests.LoginTest">
-        <test-method is-config="true" signature="setUpConfig()[pri:0, instance:com.orange.tests.LoginTest@6f46426d]" started-at="2026-04-12T14:55:16 IST" name="setUpConfig" finished-at="2026-04-12T14:55:16 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpConfig()[pri:0, instance:com.orange.tests.LoginTest@11bd0f3b]" started-at="2026-04-12T20:27:30 IST" name="setUpConfig" finished-at="2026-04-12T20:27:30 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpConfig -->
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.LoginTest@6f46426d]" started-at="2026-04-12T14:55:16 IST" name="setDriver" finished-at="2026-04-12T14:55:20 IST" duration-ms="3858" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.LoginTest@11bd0f3b]" started-at="2026-04-12T20:27:30 IST" name="setDriver" finished-at="2026-04-12T20:27:52 IST" duration-ms="22269" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4bb8855f]]>
+                <![CDATA[org.testng.TestRunner@6d60fe40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method signature="verifyLoginPage()[pri:0, instance:com.orange.tests.LoginTest@6f46426d]" started-at="2026-04-12T14:55:20 IST" name="verifyLoginPage" description="Verify loginpage is displayed when URL is loaded" finished-at="2026-04-12T14:55:21 IST" duration-ms="633" status="PASS">
+        <test-method signature="verifyLoginPage()[pri:0, instance:com.orange.tests.LoginTest@11bd0f3b]" started-at="2026-04-12T20:27:52 IST" name="verifyLoginPage" description="Verify loginpage is displayed when URL is loaded" finished-at="2026-04-12T20:27:58 IST" duration-ms="5371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPage -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.LoginTest@6f46426d]" started-at="2026-04-12T14:55:21 IST" name="quitDriver" finished-at="2026-04-12T14:55:21 IST" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.LoginTest@11bd0f3b]" started-at="2026-04-12T20:27:58 IST" name="quitDriver" finished-at="2026-04-12T20:27:58 IST" duration-ms="700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.LoginTest@6f46426d]" started-at="2026-04-12T14:55:21 IST" name="setDriver" finished-at="2026-04-12T14:55:25 IST" duration-ms="3881" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.LoginTest@11bd0f3b]" started-at="2026-04-12T20:27:58 IST" name="setDriver" finished-at="2026-04-12T20:28:21 IST" duration-ms="22728" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4bb8855f]]>
+                <![CDATA[org.testng.TestRunner@6d60fe40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method signature="verifyLoginSuccess()[pri:0, instance:com.orange.tests.LoginTest@6f46426d]" started-at="2026-04-12T14:55:25 IST" name="verifyLoginSuccess" description="Verify login works successfully and goes to dashboardpage" finished-at="2026-04-12T14:55:28 IST" duration-ms="2881" status="PASS">
+        <test-method signature="verifyLoginSuccess()[pri:0, instance:com.orange.tests.LoginTest@11bd0f3b]" started-at="2026-04-12T20:28:21 IST" name="verifyLoginSuccess" description="Verify login works successfully and goes to dashboardpage" finished-at="2026-04-12T20:28:24 IST" duration-ms="2922" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginSuccess -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.LoginTest@6f46426d]" started-at="2026-04-12T14:55:28 IST" name="quitDriver" finished-at="2026-04-12T14:55:28 IST" duration-ms="184" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.LoginTest@11bd0f3b]" started-at="2026-04-12T20:28:24 IST" name="quitDriver" finished-at="2026-04-12T20:28:24 IST" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- com.orange.tests.LoginTest -->
       <class name="com.orange.tests.DashboardTest">
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.DashboardTest@73700b80]" started-at="2026-04-12T14:55:16 IST" name="setDriver" finished-at="2026-04-12T14:55:20 IST" duration-ms="3834" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.DashboardTest@5fd4f8f5]" started-at="2026-04-12T20:27:30 IST" name="setDriver" finished-at="2026-04-12T20:27:52 IST" duration-ms="22254" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4bb8855f]]>
+                <![CDATA[org.testng.TestRunner@6d60fe40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setUpDashboard()[pri:0, instance:com.orange.tests.DashboardTest@73700b80]" started-at="2026-04-12T14:55:20 IST" name="setUpDashboard" finished-at="2026-04-12T14:55:23 IST" duration-ms="2799" status="PASS">
+        <test-method is-config="true" signature="setUpDashboard()[pri:0, instance:com.orange.tests.DashboardTest@5fd4f8f5]" started-at="2026-04-12T20:27:52 IST" name="setUpDashboard" finished-at="2026-04-12T20:28:19 IST" duration-ms="26945" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDashboard -->
-        <test-method signature="verifyDashboardScrollable()[pri:0, instance:com.orange.tests.DashboardTest@73700b80]" started-at="2026-04-12T14:55:23 IST" name="verifyDashboardScrollable" description="Verify user is able to scroll to bottem in dashboard page" finished-at="2026-04-12T14:55:23 IST" duration-ms="90" status="PASS">
+        <test-method signature="verifyDashboardScrollable()[pri:0, instance:com.orange.tests.DashboardTest@5fd4f8f5]" started-at="2026-04-12T20:28:19 IST" name="verifyDashboardScrollable" description="Verify user is able to scroll to bottem in dashboard page" finished-at="2026-04-12T20:28:19 IST" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDashboardScrollable -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.DashboardTest@73700b80]" started-at="2026-04-12T14:55:23 IST" name="quitDriver" finished-at="2026-04-12T14:55:23 IST" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.DashboardTest@5fd4f8f5]" started-at="2026-04-12T20:28:19 IST" name="quitDriver" finished-at="2026-04-12T20:28:20 IST" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.DashboardTest@73700b80]" started-at="2026-04-12T14:55:23 IST" name="setDriver" finished-at="2026-04-12T14:55:27 IST" duration-ms="3826" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.DashboardTest@5fd4f8f5]" started-at="2026-04-12T20:28:20 IST" name="setDriver" finished-at="2026-04-12T20:28:23 IST" duration-ms="3521" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4bb8855f]]>
+                <![CDATA[org.testng.TestRunner@6d60fe40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setUpDashboard()[pri:0, instance:com.orange.tests.DashboardTest@73700b80]" started-at="2026-04-12T14:55:27 IST" name="setUpDashboard" finished-at="2026-04-12T14:55:30 IST" duration-ms="3343" status="PASS">
+        <test-method is-config="true" signature="setUpDashboard()[pri:0, instance:com.orange.tests.DashboardTest@5fd4f8f5]" started-at="2026-04-12T20:28:23 IST" name="setUpDashboard" finished-at="2026-04-12T20:28:26 IST" duration-ms="2847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDashboard -->
-        <test-method signature="verifyTimeClickable()[pri:0, instance:com.orange.tests.DashboardTest@73700b80]" started-at="2026-04-12T14:55:30 IST" name="verifyTimeClickable" description="Verify time button is clicking navigating to Timepage" finished-at="2026-04-12T14:55:33 IST" duration-ms="2833" status="PASS">
+        <test-method signature="verifyTimeClickable()[pri:0, instance:com.orange.tests.DashboardTest@5fd4f8f5]" started-at="2026-04-12T20:28:26 IST" name="verifyTimeClickable" description="Verify time button is clicking navigating to Timepage" finished-at="2026-04-12T20:28:29 IST" duration-ms="2527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTimeClickable -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.DashboardTest@73700b80]" started-at="2026-04-12T14:55:33 IST" name="quitDriver" finished-at="2026-04-12T14:55:33 IST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.DashboardTest@5fd4f8f5]" started-at="2026-04-12T20:28:29 IST" name="quitDriver" finished-at="2026-04-12T20:28:29 IST" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- com.orange.tests.DashboardTest -->
       <class name="com.orange.tests.RecruitmentTest">
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.RecruitmentTest@32ee6fee]" started-at="2026-04-12T14:55:28 IST" name="setDriver" finished-at="2026-04-12T14:55:31 IST" duration-ms="3501" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.RecruitmentTest@550ee7e5]" started-at="2026-04-12T20:28:24 IST" name="setDriver" finished-at="2026-04-12T20:28:27 IST" duration-ms="3199" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4bb8855f]]>
+                <![CDATA[org.testng.TestRunner@6d60fe40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setUpRecruitmentPage()[pri:0, instance:com.orange.tests.RecruitmentTest@32ee6fee]" started-at="2026-04-12T14:55:31 IST" name="setUpRecruitmentPage" finished-at="2026-04-12T14:55:36 IST" duration-ms="4735" status="PASS">
+        <test-method is-config="true" signature="setUpRecruitmentPage()[pri:0, instance:com.orange.tests.RecruitmentTest@550ee7e5]" started-at="2026-04-12T20:28:27 IST" name="setUpRecruitmentPage" finished-at="2026-04-12T20:28:33 IST" duration-ms="5063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpRecruitmentPage -->
-        <test-method signature="verifyRecruitementPageLoaded()[pri:0, instance:com.orange.tests.RecruitmentTest@32ee6fee]" started-at="2026-04-12T14:55:36 IST" name="verifyRecruitementPageLoaded" finished-at="2026-04-12T14:55:37 IST" duration-ms="877" status="PASS">
+        <test-method signature="verifyRecruitementPageLoaded()[pri:0, instance:com.orange.tests.RecruitmentTest@550ee7e5]" started-at="2026-04-12T20:28:33 IST" name="verifyRecruitementPageLoaded" finished-at="2026-04-12T20:28:33 IST" duration-ms="682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRecruitementPageLoaded -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.RecruitmentTest@32ee6fee]" started-at="2026-04-12T14:55:37 IST" name="quitDriver" finished-at="2026-04-12T14:55:37 IST" duration-ms="222" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.RecruitmentTest@550ee7e5]" started-at="2026-04-12T20:28:33 IST" name="quitDriver" finished-at="2026-04-12T20:28:33 IST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.RecruitmentTest@32ee6fee]" started-at="2026-04-12T14:55:37 IST" name="setDriver" finished-at="2026-04-12T14:55:43 IST" duration-ms="5813" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.RecruitmentTest@550ee7e5]" started-at="2026-04-12T20:28:33 IST" name="setDriver" finished-at="2026-04-12T20:28:37 IST" duration-ms="3780" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4bb8855f]]>
+                <![CDATA[org.testng.TestRunner@6d60fe40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setUpRecruitmentPage()[pri:0, instance:com.orange.tests.RecruitmentTest@32ee6fee]" started-at="2026-04-12T14:55:43 IST" name="setUpRecruitmentPage" finished-at="2026-04-12T14:55:50 IST" duration-ms="7251" status="PASS">
+        <test-method is-config="true" signature="setUpRecruitmentPage()[pri:0, instance:com.orange.tests.RecruitmentTest@550ee7e5]" started-at="2026-04-12T20:28:37 IST" name="setUpRecruitmentPage" finished-at="2026-04-12T20:28:44 IST" duration-ms="6664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpRecruitmentPage -->
-        <test-method signature="verifySearchCandidate()[pri:0, instance:com.orange.tests.RecruitmentTest@32ee6fee]" started-at="2026-04-12T14:55:50 IST" name="verifySearchCandidate" finished-at="2026-04-12T14:55:53 IST" depends-on-methods="com.orange.tests.RecruitmentTest.verifyRecruitementPageLoaded" duration-ms="3174" status="PASS">
+        <test-method signature="verifySearchCandidate()[pri:0, instance:com.orange.tests.RecruitmentTest@550ee7e5]" started-at="2026-04-12T20:28:44 IST" name="verifySearchCandidate" finished-at="2026-04-12T20:28:48 IST" depends-on-methods="com.orange.tests.RecruitmentTest.verifyRecruitementPageLoaded" duration-ms="3879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchCandidate -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.RecruitmentTest@32ee6fee]" started-at="2026-04-12T14:55:53 IST" name="quitDriver" finished-at="2026-04-12T14:55:54 IST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.RecruitmentTest@550ee7e5]" started-at="2026-04-12T20:28:48 IST" name="quitDriver" finished-at="2026-04-12T20:28:49 IST" duration-ms="1002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- com.orange.tests.RecruitmentTest -->
       <class name="com.orange.tests.TimeTest">
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.TimeTest@156b88f5]" started-at="2026-04-12T14:55:16 IST" name="setDriver" finished-at="2026-04-12T14:55:20 IST" duration-ms="3667" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.TimeTest@a2431d0]" started-at="2026-04-12T20:27:30 IST" name="setDriver" finished-at="2026-04-12T20:27:52 IST" duration-ms="21588" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4bb8855f]]>
+                <![CDATA[org.testng.TestRunner@6d60fe40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setUpTimePage()[pri:0, instance:com.orange.tests.TimeTest@156b88f5]" started-at="2026-04-12T14:55:20 IST" name="setUpTimePage" finished-at="2026-04-12T14:55:24 IST" duration-ms="4604" status="PASS">
+        <test-method is-config="true" signature="setUpTimePage()[pri:0, instance:com.orange.tests.TimeTest@a2431d0]" started-at="2026-04-12T20:27:52 IST" name="setUpTimePage" finished-at="2026-04-12T20:28:02 IST" duration-ms="10606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTimePage -->
-        <test-method signature="verifyAllElementsPresent()[pri:0, instance:com.orange.tests.TimeTest@156b88f5]" started-at="2026-04-12T14:55:24 IST" name="verifyAllElementsPresent" description="Verify all the UI elements are shown in page" finished-at="2026-04-12T14:55:25 IST" duration-ms="637" status="PASS">
+        <test-method signature="verifyAllElementsPresent()[pri:0, instance:com.orange.tests.TimeTest@a2431d0]" started-at="2026-04-12T20:28:02 IST" name="verifyAllElementsPresent" description="Verify all the UI elements are shown in page" finished-at="2026-04-12T20:28:03 IST" duration-ms="905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllElementsPresent -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.TimeTest@156b88f5]" started-at="2026-04-12T14:55:25 IST" name="quitDriver" finished-at="2026-04-12T14:55:25 IST" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.TimeTest@a2431d0]" started-at="2026-04-12T20:28:03 IST" name="quitDriver" finished-at="2026-04-12T20:28:03 IST" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.TimeTest@156b88f5]" started-at="2026-04-12T14:55:25 IST" name="setDriver" finished-at="2026-04-12T14:55:30 IST" duration-ms="4423" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.TimeTest@a2431d0]" started-at="2026-04-12T20:28:03 IST" name="setDriver" finished-at="2026-04-12T20:28:23 IST" duration-ms="19079" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4bb8855f]]>
+                <![CDATA[org.testng.TestRunner@6d60fe40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setUpTimePage()[pri:0, instance:com.orange.tests.TimeTest@156b88f5]" started-at="2026-04-12T14:55:30 IST" name="setUpTimePage" finished-at="2026-04-12T14:55:36 IST" duration-ms="6125" status="PASS">
+        <test-method is-config="true" signature="setUpTimePage()[pri:0, instance:com.orange.tests.TimeTest@a2431d0]" started-at="2026-04-12T20:28:23 IST" name="setUpTimePage" finished-at="2026-04-12T20:28:27 IST" duration-ms="4404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTimePage -->
-        <test-method signature="verifyMyRecords()[pri:0, instance:com.orange.tests.TimeTest@156b88f5]" started-at="2026-04-12T14:55:36 IST" name="verifyMyRecords" description="Verify my records option is clickable" finished-at="2026-04-12T14:55:39 IST" duration-ms="3736" status="PASS">
+        <test-method signature="verifyMyRecords()[pri:0, instance:com.orange.tests.TimeTest@a2431d0]" started-at="2026-04-12T20:28:27 IST" name="verifyMyRecords" description="Verify my records option is clickable" finished-at="2026-04-12T20:28:30 IST" duration-ms="3384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMyRecords -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.TimeTest@156b88f5]" started-at="2026-04-12T14:55:39 IST" name="quitDriver" finished-at="2026-04-12T14:55:40 IST" duration-ms="401" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.TimeTest@a2431d0]" started-at="2026-04-12T20:28:30 IST" name="quitDriver" finished-at="2026-04-12T20:28:31 IST" duration-ms="273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.TimeTest@156b88f5]" started-at="2026-04-12T14:55:40 IST" name="setDriver" finished-at="2026-04-12T14:55:44 IST" duration-ms="4433" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.TimeTest@a2431d0]" started-at="2026-04-12T20:28:31 IST" name="setDriver" finished-at="2026-04-12T20:28:34 IST" duration-ms="3734" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4bb8855f]]>
+                <![CDATA[org.testng.TestRunner@6d60fe40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setUpTimePage()[pri:0, instance:com.orange.tests.TimeTest@156b88f5]" started-at="2026-04-12T14:55:44 IST" name="setUpTimePage" finished-at="2026-04-12T14:55:50 IST" duration-ms="5444" status="PASS">
+        <test-method is-config="true" signature="setUpTimePage()[pri:0, instance:com.orange.tests.TimeTest@a2431d0]" started-at="2026-04-12T20:28:34 IST" name="setUpTimePage" finished-at="2026-04-12T20:28:39 IST" duration-ms="4390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTimePage -->
-        <test-method signature="verifyTimePageLoaded()[pri:0, instance:com.orange.tests.TimeTest@156b88f5]" started-at="2026-04-12T14:55:50 IST" name="verifyTimePageLoaded" description="Verify timepage loaded successfully" finished-at="2026-04-12T14:55:51 IST" duration-ms="1043" status="PASS">
+        <test-method signature="verifyTimePageLoaded()[pri:0, instance:com.orange.tests.TimeTest@a2431d0]" started-at="2026-04-12T20:28:39 IST" name="verifyTimePageLoaded" description="Verify timepage loaded successfully" finished-at="2026-04-12T20:28:39 IST" duration-ms="643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTimePageLoaded -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.TimeTest@156b88f5]" started-at="2026-04-12T14:55:51 IST" name="quitDriver" finished-at="2026-04-12T14:55:51 IST" duration-ms="314" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.TimeTest@a2431d0]" started-at="2026-04-12T20:28:39 IST" name="quitDriver" finished-at="2026-04-12T20:28:40 IST" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- com.orange.tests.TimeTest -->
       <class name="com.orange.tests.AddCandidateTest">
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:55:37 IST" name="setDriver" finished-at="2026-04-12T14:55:43 IST" duration-ms="6143" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:28:30 IST" name="setDriver" finished-at="2026-04-12T20:28:34 IST" duration-ms="4399" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4bb8855f]]>
+                <![CDATA[org.testng.TestRunner@6d60fe40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setUpAddCandidatePage()[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:55:43 IST" name="setUpAddCandidatePage" finished-at="2026-04-12T14:55:51 IST" duration-ms="7631" status="PASS">
+        <test-method is-config="true" signature="setUpAddCandidatePage()[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:28:34 IST" name="setUpAddCandidatePage" finished-at="2026-04-12T20:28:41 IST" duration-ms="7027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpAddCandidatePage -->
-        <test-method signature="verifyAddCandidate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:55:51 IST" name="verifyAddCandidate" data-provider="candidateData" finished-at="2026-04-12T14:55:53 IST" duration-ms="2862" status="PASS">
+        <test-method signature="verifyAddCandidate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:28:41 IST" name="verifyAddCandidate" data-provider="candidateData" finished-at="2026-04-12T20:28:44 IST" duration-ms="2519" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -259,26 +259,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddCandidate -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:55:53 IST" name="quitDriver" finished-at="2026-04-12T14:55:54 IST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:28:44 IST" name="quitDriver" finished-at="2026-04-12T20:28:44 IST" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:55:54 IST" name="setDriver" finished-at="2026-04-12T14:55:57 IST" duration-ms="3354" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:28:44 IST" name="setDriver" finished-at="2026-04-12T20:28:48 IST" duration-ms="3965" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4bb8855f]]>
+                <![CDATA[org.testng.TestRunner@6d60fe40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setUpAddCandidatePage()[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:55:57 IST" name="setUpAddCandidatePage" finished-at="2026-04-12T14:56:02 IST" duration-ms="5185" status="PASS">
+        <test-method is-config="true" signature="setUpAddCandidatePage()[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:28:48 IST" name="setUpAddCandidatePage" finished-at="2026-04-12T20:28:58 IST" duration-ms="9306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpAddCandidatePage -->
-        <test-method signature="verifyAddCandidate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:56:02 IST" name="verifyAddCandidate" data-provider="candidateData" finished-at="2026-04-12T14:56:04 IST" duration-ms="1670" status="PASS">
+        <test-method signature="verifyAddCandidate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:28:58 IST" name="verifyAddCandidate" data-provider="candidateData" finished-at="2026-04-12T20:29:00 IST" duration-ms="2166" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -304,26 +304,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddCandidate -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:56:04 IST" name="quitDriver" finished-at="2026-04-12T14:56:04 IST" duration-ms="157" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:29:00 IST" name="quitDriver" finished-at="2026-04-12T20:29:00 IST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:56:04 IST" name="setDriver" finished-at="2026-04-12T14:56:08 IST" duration-ms="3532" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:29:00 IST" name="setDriver" finished-at="2026-04-12T20:29:05 IST" duration-ms="4787" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4bb8855f]]>
+                <![CDATA[org.testng.TestRunner@6d60fe40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setUpAddCandidatePage()[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:56:08 IST" name="setUpAddCandidatePage" finished-at="2026-04-12T14:56:13 IST" duration-ms="5164" status="PASS">
+        <test-method is-config="true" signature="setUpAddCandidatePage()[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:29:05 IST" name="setUpAddCandidatePage" finished-at="2026-04-12T20:29:12 IST" duration-ms="7582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpAddCandidatePage -->
-        <test-method signature="verifyAddCandidate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:56:13 IST" name="verifyAddCandidate" data-provider="candidateData" finished-at="2026-04-12T14:56:14 IST" duration-ms="1497" status="PASS">
+        <test-method signature="verifyAddCandidate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:29:12 IST" name="verifyAddCandidate" data-provider="candidateData" finished-at="2026-04-12T20:29:14 IST" duration-ms="1554" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -349,26 +349,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddCandidate -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:56:14 IST" name="quitDriver" finished-at="2026-04-12T14:56:14 IST" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:29:14 IST" name="quitDriver" finished-at="2026-04-12T20:29:15 IST" duration-ms="1039" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:56:14 IST" name="setDriver" finished-at="2026-04-12T14:56:18 IST" duration-ms="3456" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:29:15 IST" name="setDriver" finished-at="2026-04-12T20:29:18 IST" duration-ms="3170" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4bb8855f]]>
+                <![CDATA[org.testng.TestRunner@6d60fe40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setUpAddCandidatePage()[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:56:18 IST" name="setUpAddCandidatePage" finished-at="2026-04-12T14:56:23 IST" duration-ms="4980" status="PASS">
+        <test-method is-config="true" signature="setUpAddCandidatePage()[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:29:18 IST" name="setUpAddCandidatePage" finished-at="2026-04-12T20:29:23 IST" duration-ms="4828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpAddCandidatePage -->
-        <test-method signature="verifyAddCandidate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:56:23 IST" name="verifyAddCandidate" data-provider="candidateData" finished-at="2026-04-12T14:56:25 IST" duration-ms="2205" status="PASS">
+        <test-method signature="verifyAddCandidate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:29:23 IST" name="verifyAddCandidate" data-provider="candidateData" finished-at="2026-04-12T20:29:25 IST" duration-ms="1736" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -394,68 +394,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddCandidate -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:56:25 IST" name="quitDriver" finished-at="2026-04-12T14:56:25 IST" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:29:25 IST" name="quitDriver" finished-at="2026-04-12T20:29:25 IST" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:56:25 IST" name="setDriver" finished-at="2026-04-12T14:56:28 IST" duration-ms="3320" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:29:25 IST" name="setDriver" finished-at="2026-04-12T20:29:29 IST" duration-ms="4496" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4bb8855f]]>
+                <![CDATA[org.testng.TestRunner@6d60fe40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setUpAddCandidatePage()[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:56:28 IST" name="setUpAddCandidatePage" finished-at="2026-04-12T14:56:33 IST" duration-ms="4946" status="PASS">
+        <test-method is-config="true" signature="setUpAddCandidatePage()[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:29:29 IST" name="setUpAddCandidatePage" finished-at="2026-04-12T20:29:34 IST" duration-ms="5133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpAddCandidatePage -->
-        <test-method signature="verifyAddCandidatePage()[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:56:33 IST" name="verifyAddCandidatePage" finished-at="2026-04-12T14:56:34 IST" duration-ms="603" status="PASS">
+        <test-method signature="verifyAddCandidatePage()[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:29:34 IST" name="verifyAddCandidatePage" finished-at="2026-04-12T20:29:35 IST" duration-ms="558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddCandidatePage -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.AddCandidateTest@4d0f2471]" started-at="2026-04-12T14:56:34 IST" name="quitDriver" finished-at="2026-04-12T14:56:34 IST" duration-ms="157" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.AddCandidateTest@5f9b2141]" started-at="2026-04-12T20:29:35 IST" name="quitDriver" finished-at="2026-04-12T20:29:35 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- com.orange.tests.AddCandidateTest -->
     </test> <!-- RegressionTests -->
   </suite> <!-- RegressionSuite -->
-  <suite started-at="2026-04-12T14:55:08 IST" name="SmokeSuite" finished-at="2026-04-12T14:55:16 IST" duration-ms="7592">
-    <groups>
-    </groups>
-    <test started-at="2026-04-12T14:55:08 IST" name="SmokeTests" finished-at="2026-04-12T14:55:16 IST" duration-ms="7592">
-      <class name="com.orange.tests.LoginTest">
-        <test-method is-config="true" signature="setUpConfig()[pri:0, instance:com.orange.tests.LoginTest@62e7f11d]" started-at="2026-04-12T14:55:08 IST" name="setUpConfig" finished-at="2026-04-12T14:55:08 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpConfig -->
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.orange.tests.LoginTest@62e7f11d]" started-at="2026-04-12T14:55:08 IST" name="setDriver" finished-at="2026-04-12T14:55:13 IST" duration-ms="4558" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@57fae983]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setDriver -->
-        <test-method signature="verifyLoginSuccess()[pri:0, instance:com.orange.tests.LoginTest@62e7f11d]" started-at="2026-04-12T14:55:13 IST" name="verifyLoginSuccess" description="Verify login works successfully and goes to dashboardpage" finished-at="2026-04-12T14:55:16 IST" duration-ms="2822" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginSuccess -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.orange.tests.LoginTest@62e7f11d]" started-at="2026-04-12T14:55:16 IST" name="quitDriver" finished-at="2026-04-12T14:55:16 IST" duration-ms="164" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- com.orange.tests.LoginTest -->
-    </test> <!-- SmokeTests -->
-  </suite> <!-- SmokeSuite -->
-  <suite started-at="2026-04-12T14:56:34 IST" name="MasterSuite" finished-at="2026-04-12T14:56:34 IST" duration-ms="0">
+  <suite started-at="2026-04-12T20:29:35 IST" name="MasterSuite" finished-at="2026-04-12T20:29:35 IST" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- MasterSuite -->

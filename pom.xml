@@ -78,6 +78,7 @@
 		</dependency>
 	</dependencies>
 	<build>
+		<finalName>selenium-docker-asv</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -93,11 +94,6 @@
 				<version>3.2.5</version>
 
 				<configuration>
-					<systemPropertyVariables>
-                        <browser>chrome</browser>
-                        <selenium.grid.enabled>false</selenium.grid.enabled>
-                    </systemPropertyVariables>
-
 					<suiteXmlFiles>
 						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
@@ -108,7 +104,7 @@
 
 					</systemPropertyVariables>
 					<!-- Thread control -->
-					<threadCount>3</threadCount>
+					<threadCount>2</threadCount>
 
 					<!-- Reports -->
 					<reportsDirectory>target/surefire-reports</reportsDirectory>

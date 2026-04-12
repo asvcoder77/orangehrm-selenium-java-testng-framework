@@ -3,9 +3,19 @@
 <suite thread-count="3" parallel="classes" name="Failed suite [RegressionSuite]">
   <test thread-count="3" parallel="classes" name="RegressionTests(failed)">
     <classes>
+      <class name="com.orange.tests.DashboardTest">
+        <methods>
+          <include name="setUpConfig"/>
+          <include name="quitDriver"/>
+          <include name="setDriver"/>
+          <include name="verifyTimeClickable"/>
+          <include name="setUpDashboard"/>
+        </methods>
+      </class> <!-- com.orange.tests.DashboardTest -->
       <class name="com.orange.tests.TimeTest">
         <methods>
           <include name="setUpConfig"/>
+          <include name="verifyTimePageLoaded"/>
           <include name="quitDriver"/>
           <include name="setDriver"/>
           <include name="verifyMyRecords"/>
