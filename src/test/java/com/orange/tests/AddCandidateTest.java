@@ -27,6 +27,11 @@ public class AddCandidateTest extends BaseTest {
 		Assert.assertTrue(recruitmentPage.isAt(),"Recruitment page isnt loaded");
 		addCandidatePage=recruitmentPage.clickAddCandidate();
 	}
+	@Test
+	public void verifyAddCandidatePage() {
+		Assert.assertTrue(addCandidatePage.isAt(),"Add cndidate page not loaded");
+	}
+	
 	@DataProvider(name="candidateData")
 	public Object[][] getData() throws IOException{
 		return ExcelUtil.getTestData("src/test/resources/testdata/candidatesdetails.xlsx", "sheet1");

@@ -40,13 +40,21 @@ public class RecruitmentPage extends BasePage {
 	}
 	public void clickJobTitleDropdown() {
 		wait.until(ExpectedConditions.elementToBeClickable(jobtitledropdown)).click();	
-		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@role='option']")));
+//		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@role='option']")));
+		wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(
+		        By.xpath("//div[@role='option']"), 5
+		    ));
 	}
 	public void selectJobTitle() {
-		List<WebElement>jobs=wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//div[@role='option']"), 5));
-		System.out.println(jobs.size());
-		jobs.get(5).click();	
+	    By option = By.xpath("(//div[@role='option'])[6]");
+
+	    wait.until(ExpectedConditions.elementToBeClickable(option)).click();
 	}
+//	public void selectJobTitle() {
+//		List<WebElement>jobs=wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//div[@role='option']"), 5));
+//		System.out.println(jobs.size());
+//		jobs.get(5).click();    	
+//	}
 	public void clickStatusDropdown() {
 		wait.until(ExpectedConditions.elementToBeClickable(status)).click();
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@role='option']")));
