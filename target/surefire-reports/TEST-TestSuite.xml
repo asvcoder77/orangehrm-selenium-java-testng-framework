@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="57.281" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="73.855" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\vishn\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\vishn\eclipse-workspace\orange-hrm-demo\target\test-classes;C:\Users\vishn\eclipse-workspace\orange-hrm-demo\target\classes;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-java\4.41.0\selenium-java-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-api\4.41.0\selenium-api-4.41.0.jar;C:\Users\vishn\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.41.0\selenium-chrome-driver-4.41.0.jar;C:\Users\vishn\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.41.0\selenium-chromium-driver-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-json\4.41.0\selenium-json-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.41.0\selenium-manager-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.41.0\selenium-devtools-v143-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.41.0\selenium-devtools-v144-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.41.0\selenium-devtools-v145-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.41.0\selenium-edge-driver-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.41.0\selenium-firefox-driver-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-http\4.41.0\selenium-http-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.41.0\selenium-ie-driver-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.41.0\selenium-remote-driver-4.41.0.jar;C:\Users\vishn\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\vishn\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\vishn\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\vishn\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-api\1.59.0\opentelemetry-api-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-context\1.59.0\opentelemetry-context-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-common\1.59.0\opentelemetry-common-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.59.0\opentelemetry-exporter-logging-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.59.0\opentelemetry-sdk-common-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.59.0\opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.59.0\opentelemetry-sdk-extension-autoconfigure-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.59.0\opentelemetry-sdk-trace-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.59.0\opentelemetry-sdk-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.59.0\opentelemetry-sdk-metrics-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.59.0\opentelemetry-sdk-logs-1.59.0.jar;C:\Users\vishn\.m2\repository\net\bytebuddy\byte-buddy\1.18.5\byte-buddy-1.18.5.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-os\4.41.0\selenium-os-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.41.0\selenium-safari-driver-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-support\4.41.0\selenium-support-4.41.0.jar;C:\Users\vishn\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\vishn\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\vishn\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\vishn\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\vishn\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\vishn\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\vishn\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\vishn\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\vishn\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\vishn\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\vishn\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\vishn\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\vishn\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\vishn\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\vishn\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\vishn\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\vishn\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\vishn\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\vishn\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\vishn\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\vishn\.m2\repository\ch\qos\logback\logback-classic\1.5.32\logback-classic-1.5.32.jar;C:\Users\vishn\.m2\repository\ch\qos\logback\logback-core\1.5.32\logback-core-1.5.32.jar;C:\Users\vishn\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.21.1\jackson-databind-2.21.1.jar;C:\Users\vishn\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar;C:\Users\vishn\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.21.1\jackson-core-2.21.1.jar;C:\Users\vishn\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\vishn\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\vishn\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\vishn\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\vishn\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\vishn\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\vishn\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\vishn\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\vishn\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\vishn\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\vishn\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
@@ -15,10 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\vishn\AppData\Local\Temp\surefire6895929342082815518\surefirebooter-20260331010303924_3.jar C:\Users\vishn\AppData\Local\Temp\surefire6895929342082815518 2026-03-31T01-03-03_687-jvmRun1 surefire-20260331010303924_1tmp surefire_0-20260331010303924_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\vishn\AppData\Local\Temp\surefire4532735258154602025\surefirebooter-20260412150141240_3.jar C:\Users\vishn\AppData\Local\Temp\surefire4532735258154602025 2026-04-12T15-01-41_062-jvmRun1 surefire-20260412150141240_1tmp surefire_0-20260412150141240_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\vishn\eclipse-workspace\orange-hrm-demo\target\test-classes;C:\Users\vishn\eclipse-workspace\orange-hrm-demo\target\classes;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-java\4.41.0\selenium-java-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-api\4.41.0\selenium-api-4.41.0.jar;C:\Users\vishn\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.41.0\selenium-chrome-driver-4.41.0.jar;C:\Users\vishn\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.41.0\selenium-chromium-driver-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-json\4.41.0\selenium-json-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.41.0\selenium-manager-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.41.0\selenium-devtools-v143-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.41.0\selenium-devtools-v144-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.41.0\selenium-devtools-v145-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.41.0\selenium-edge-driver-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.41.0\selenium-firefox-driver-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-http\4.41.0\selenium-http-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.41.0\selenium-ie-driver-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.41.0\selenium-remote-driver-4.41.0.jar;C:\Users\vishn\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\vishn\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\vishn\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\vishn\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-api\1.59.0\opentelemetry-api-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-context\1.59.0\opentelemetry-context-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-common\1.59.0\opentelemetry-common-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.59.0\opentelemetry-exporter-logging-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.59.0\opentelemetry-sdk-common-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.59.0\opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.59.0\opentelemetry-sdk-extension-autoconfigure-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.59.0\opentelemetry-sdk-trace-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.59.0\opentelemetry-sdk-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.59.0\opentelemetry-sdk-metrics-1.59.0.jar;C:\Users\vishn\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.59.0\opentelemetry-sdk-logs-1.59.0.jar;C:\Users\vishn\.m2\repository\net\bytebuddy\byte-buddy\1.18.5\byte-buddy-1.18.5.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-os\4.41.0\selenium-os-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.41.0\selenium-safari-driver-4.41.0.jar;C:\Users\vishn\.m2\repository\org\seleniumhq\selenium\selenium-support\4.41.0\selenium-support-4.41.0.jar;C:\Users\vishn\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\vishn\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\vishn\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\vishn\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\vishn\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\vishn\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\vishn\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\vishn\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\vishn\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\vishn\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\vishn\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\vishn\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\vishn\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\vishn\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\vishn\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\vishn\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\vishn\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\vishn\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\vishn\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\vishn\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\vishn\.m2\repository\ch\qos\logback\logback-classic\1.5.32\logback-classic-1.5.32.jar;C:\Users\vishn\.m2\repository\ch\qos\logback\logback-core\1.5.32\logback-core-1.5.32.jar;C:\Users\vishn\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.21.1\jackson-databind-2.21.1.jar;C:\Users\vishn\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar;C:\Users\vishn\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.21.1\jackson-core-2.21.1.jar;C:\Users\vishn\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\vishn\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\vishn\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\vishn\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\vishn\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\vishn\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\vishn\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\vishn\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\vishn\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\vishn\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\vishn\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
-    <property name="orange.hrm.url" value=""/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\vishn"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\vishn\AppData\Local\Temp\surefire6895929342082815518\surefirebooter-20260331010303924_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\vishn\AppData\Local\Temp\surefire4532735258154602025\surefirebooter-20260412150141240_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.9+7-LTS-338"/>
@@ -41,7 +41,7 @@
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="browser" value="firefox"/>
+    <property name="browser" value="chrome"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\vishn\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -49,10 +49,8 @@
     <property name="java.version" value="21.0.9"/>
     <property name="user.dir" value="C:\Users\vishn\eclipse-workspace\orange-hrm-demo"/>
     <property name="os.arch" value="amd64"/>
-    <property name="webdriver.gecko.driver" value="C:\Users\vishn\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="selenium.grid.enabled" value="false"/>
-    <property name="grid.hub.host" value=""/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\vishn\bin;C:\Users\vishn\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\vishn\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\vishn\AppData\Local\Microsoft\WindowsApps;C:\apache-maven-3.9.12\bin;C:\Users\vishn\AppData\Roaming\npm;C:\Users\vishn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
@@ -63,663 +61,186 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="verifyLoginPage" classname="com.orange.tests.LoginTest" time="1.127">
-    <system-out><![CDATA[01:03:04.476 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "C:\Users\vishn\eclipse-workspace\orange-hrm-demo\src\test\resources\suites\regression.xml"
-01:03:04.508 [main] WARN org.testng.xml.TestNGContentHandler -- It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\vishn\eclipse-workspace\orange-hrm-demo\src\test\resources\suites\regression.xml] otherwise TestNG may fail or not work as expected.
-01:03:04.775 [main] INFO com.orange.utils.ResourceLoader -- reading resource from location: config/default.properties
-01:03:04.775 [main] INFO com.orange.utils.Config -- Test Properties
-01:03:04.775 [main] INFO com.orange.utils.Config -- ---------------------------------------
-01:03:04.775 [main] INFO com.orange.utils.Config -- selenium.grid.urlFormat=http://%s:4444/wd/hub
-01:03:04.775 [main] INFO com.orange.utils.Config -- orangeHrm.url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-01:03:04.775 [main] INFO com.orange.utils.Config -- browser=firefox
-01:03:04.775 [main] INFO com.orange.utils.Config -- selenium.grid.enabled=false
-01:03:04.775 [main] INFO com.orange.utils.Config -- selenium.grid.hubHost=localhost
-01:03:04.775 [main] INFO com.orange.utils.Config -- ---------------------------------------
-01:03:04.843 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
-01:03:04.857 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
-01:03:04.859 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
-01:03:05.145 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000002 preparing request execution
-01:03:05.145 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000001 preparing request execution
-01:03:05.145 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000003 preparing request execution
-01:03:05.157 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec -- ex-0000000001 target auth state: UNCHALLENGED
-01:03:05.157 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec -- ex-0000000002 target auth state: UNCHALLENGED
-01:03:05.157 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec -- ex-0000000003 target auth state: UNCHALLENGED
-01:03:05.157 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec -- ex-0000000002 proxy auth state: UNCHALLENGED
-01:03:05.157 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec -- ex-0000000003 proxy auth state: UNCHALLENGED
-01:03:05.157 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec -- ex-0000000001 proxy auth state: UNCHALLENGED
-01:03:05.157 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec -- ex-0000000002 acquiring connection with route {s}->[https://raw.githubusercontent.com:443]
-01:03:05.157 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec -- ex-0000000003 acquiring connection with route {s}->[https://raw.githubusercontent.com:443]
-01:03:05.157 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec -- ex-0000000001 acquiring connection with route {s}->[https://raw.githubusercontent.com:443]
-01:03:05.157 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000002 acquiring endpoint (3 MINUTES)
-01:03:05.157 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000003 acquiring endpoint (3 MINUTES)
-01:03:05.157 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000001 acquiring endpoint (3 MINUTES)
-01:03:05.159 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000001 endpoint lease request (3 MINUTES) [route: {s}->[https://raw.githubusercontent.com:443]][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
-01:03:05.159 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000002 endpoint lease request (3 MINUTES) [route: {s}->[https://raw.githubusercontent.com:443]][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
-01:03:05.159 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000003 endpoint lease request (3 MINUTES) [route: {s}->[https://raw.githubusercontent.com:443]][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
-01:03:05.161 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000002 endpoint leased [route: {s}->[https://raw.githubusercontent.com:443]][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
-01:03:05.161 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000003 endpoint leased [route: {s}->[https://raw.githubusercontent.com:443]][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
-01:03:05.162 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000001 endpoint leased [route: {s}->[https://raw.githubusercontent.com:443]][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
-01:03:05.172 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000002 acquired ep-0000000003
-01:03:05.172 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000001 acquired ep-0000000001
-01:03:05.172 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000002 acquired endpoint ep-0000000003
-01:03:05.172 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000003 acquired ep-0000000002
-01:03:05.172 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000001 acquired endpoint ep-0000000001
-01:03:05.172 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec -- ex-0000000002 opening connection {s}->[https://raw.githubusercontent.com:443]
-01:03:05.172 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000003 acquired endpoint ep-0000000002
-01:03:05.172 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec -- ex-0000000001 opening connection {s}->[https://raw.githubusercontent.com:443]
-01:03:05.172 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec -- ex-0000000003 opening connection {s}->[https://raw.githubusercontent.com:443]
-01:03:05.172 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000003 connecting endpoint (null)
-01:03:05.172 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000002 connecting endpoint (null)
-01:03:05.172 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000001 connecting endpoint (null)
-01:03:05.173 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000003 connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
-01:03:05.173 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000002 connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
-01:03:05.173 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
-01:03:05.175 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- raw.githubusercontent.com resolving remote address
-01:03:05.175 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- raw.githubusercontent.com resolving remote address
-01:03:05.175 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- raw.githubusercontent.com resolving remote address
-01:03:05.176 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- raw.githubusercontent.com resolved to [raw.githubusercontent.com/185.199.108.133, raw.githubusercontent.com/185.199.111.133, raw.githubusercontent.com/185.199.110.133, raw.githubusercontent.com/185.199.109.133]
-01:03:05.176 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- raw.githubusercontent.com resolved to [raw.githubusercontent.com/185.199.108.133, raw.githubusercontent.com/185.199.111.133, raw.githubusercontent.com/185.199.110.133, raw.githubusercontent.com/185.199.109.133]
-01:03:05.176 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- raw.githubusercontent.com resolved to [raw.githubusercontent.com/185.199.108.133, raw.githubusercontent.com/185.199.111.133, raw.githubusercontent.com/185.199.110.133, raw.githubusercontent.com/185.199.109.133]
-01:03:05.176 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- https://raw.githubusercontent.com:443 connecting null->raw.githubusercontent.com/185.199.108.133:443 (30 SECONDS)
-01:03:05.176 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- https://raw.githubusercontent.com:443 connecting null->raw.githubusercontent.com/185.199.108.133:443 (30 SECONDS)
-01:03:05.176 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- https://raw.githubusercontent.com:443 connecting null->raw.githubusercontent.com/185.199.108.133:443 (30 SECONDS)
-01:03:05.208 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- http-outgoing-0 https://raw.githubusercontent.com:443 connected /192.168.1.6:57917->raw.githubusercontent.com/185.199.108.133:443
-01:03:05.213 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection -- http-outgoing-0 set socket timeout to 3 MINUTES
-01:03:05.213 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- http-outgoing-0 https://raw.githubusercontent.com:443 upgrading to TLS
-01:03:05.215 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- http-outgoing-2 https://raw.githubusercontent.com:443 connected /192.168.1.6:57915->raw.githubusercontent.com/185.199.108.133:443
-01:03:05.215 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection -- http-outgoing-2 set socket timeout to 3 MINUTES
-01:03:05.217 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- http-outgoing-2 https://raw.githubusercontent.com:443 upgrading to TLS
-01:03:05.219 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- http-outgoing-1 https://raw.githubusercontent.com:443 connected /192.168.1.6:57916->raw.githubusercontent.com/185.199.108.133:443
-01:03:05.220 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.DefaultManagedHttpClientConnection -- http-outgoing-1 set socket timeout to 3 MINUTES
-01:03:05.220 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- http-outgoing-1 https://raw.githubusercontent.com:443 upgrading to TLS
-01:03:05.263 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Enabled protocols: [TLSv1.3, TLSv1.2]
-01:03:05.263 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Enabled protocols: [TLSv1.3, TLSv1.2]
-01:03:05.263 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Enabled protocols: [TLSv1.3, TLSv1.2]
-01:03:05.263 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
-01:03:05.263 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Starting handshake (null)
-01:03:05.263 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
-01:03:05.263 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
-01:03:05.263 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Starting handshake (null)
-01:03:05.263 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Starting handshake (null)
-01:03:05.422 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Secure session established
-01:03:05.422 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Secure session established
-01:03:05.422 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy -- Secure session established
-01:03:05.422 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  negotiated protocol: TLSv1.3
-01:03:05.422 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  negotiated protocol: TLSv1.3
-01:03:05.422 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  negotiated cipher suite: TLS_AES_128_GCM_SHA256
-01:03:05.422 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  negotiated protocol: TLSv1.3
-01:03:05.422 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  negotiated cipher suite: TLS_AES_128_GCM_SHA256
-01:03:05.422 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  negotiated cipher suite: TLS_AES_128_GCM_SHA256
-01:03:05.422 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  peer principal: CN=*.github.io
-01:03:05.422 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  peer principal: CN=*.github.io
-01:03:05.422 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  peer principal: CN=*.github.io
-01:03:05.422 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  peer alternative names: [*.github.com, *.github.io, *.githubusercontent.com, github.com, github.io, githubusercontent.com]
-01:03:05.422 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  peer alternative names: [*.github.com, *.github.io, *.githubusercontent.com, github.com, github.io, githubusercontent.com]
-01:03:05.422 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  peer alternative names: [*.github.com, *.github.io, *.githubusercontent.com, github.com, github.io, githubusercontent.com]
-01:03:05.422 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  issuer principal: CN=R12, O=Let's Encrypt, C=US
-01:03:05.422 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  issuer principal: CN=R12, O=Let's Encrypt, C=US
-01:03:05.422 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.ssl.AbstractClientTlsStrategy --  issuer principal: CN=R12, O=Let's Encrypt, C=US
-01:03:05.425 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- http-outgoing-1 https://raw.githubusercontent.com:443 upgraded to TLS
-01:03:05.425 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- http-outgoing-2 https://raw.githubusercontent.com:443 upgraded to TLS
-01:03:05.425 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 connected http-outgoing-2
-01:03:05.425 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator -- http-outgoing-0 https://raw.githubusercontent.com:443 upgraded to TLS
-01:03:05.425 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000003 connected http-outgoing-0
-01:03:05.425 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000002 connected http-outgoing-1
-01:03:05.425 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000001 endpoint connected
-01:03:05.425 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000003 endpoint connected
-01:03:05.425 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000002 endpoint connected
-01:03:05.429 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec -- ex-0000000001 executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties
-01:03:05.429 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec -- ex-0000000003 executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties
-01:03:05.429 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec -- ex-0000000002 executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties
-01:03:05.429 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.protocol.RequestAddCookies -- ex-0000000001 Cookie spec selected: strict
-01:03:05.429 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.protocol.RequestAddCookies -- ex-0000000003 Cookie spec selected: strict
-01:03:05.429 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.protocol.RequestAddCookies -- ex-0000000002 Cookie spec selected: strict
-01:03:05.437 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000003 start execution ex-0000000002
-01:03:05.437 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000001 start execution ex-0000000001
-01:03:05.437 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000002 start execution ex-0000000003
-01:03:05.440 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 executing exchange ex-0000000001 over http-outgoing-2
-01:03:05.440 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000002 executing exchange ex-0000000003 over http-outgoing-1
-01:03:05.440 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000003 executing exchange ex-0000000002 over http-outgoing-0
-01:03:05.442 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
-01:03:05.442 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 >> user-agent: Apache-HttpClient/5.0
-01:03:05.442 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 >> accept-encoding: gzip, deflate, br
-01:03:05.442 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
-01:03:05.442 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
-01:03:05.442 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 >> cache-control: max-age=0
-01:03:05.442 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
-01:03:05.442 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 >> user-agent: Apache-HttpClient/5.0
-01:03:05.442 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> accept-encoding: gzip, deflate, br
-01:03:05.442 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 >> connection: keep-alive
-01:03:05.442 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 >> accept-encoding: gzip, deflate, br
-01:03:05.442 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> cache-control: max-age=0
-01:03:05.442 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 >> Host: raw.githubusercontent.com
-01:03:05.442 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> connection: keep-alive
-01:03:05.442 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 >> cache-control: max-age=0
-01:03:05.442 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 >> connection: keep-alive
-01:03:05.442 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> Host: raw.githubusercontent.com
-01:03:05.442 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 >> Host: raw.githubusercontent.com
-01:03:05.442 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 >> "accept-encoding: gzip, deflate, br[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 >> "cache-control: max-age=0[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 >> "accept-encoding: gzip, deflate, br[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 >> "connection: keep-alive[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "connection: keep-alive[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 >> "cache-control: max-age=0[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 >> "Host: raw.githubusercontent.com[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 >> "connection: keep-alive[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 >> "[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 >> "Host: raw.githubusercontent.com[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "[\r][\n]"
-01:03:05.442 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 >> "[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Connection: keep-alive[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Content-Length: 946[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "ETag: W/"dc0c32cea2dfa86f6cf10513cf8a64e1e8817484a415b658b4eecd962d4deaee"[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-GitHub-Request-Id: E412:BCCDF:12E914:232A36:69C5D077[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Date: Mon, 30 Mar 2026 19:33:05 GMT[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Served-By: cache-maa10236-MAA[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Cache: HIT[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Timer: S1774899185.177817,VS0,VE1[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Cross-Origin-Resource-Policy: cross-origin[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Fastly-Request-ID: dfa2c6842f7ecd5e3defee552668c5cf55354a17[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Expires: Mon, 30 Mar 2026 19:38:05 GMT[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Source-Age: 290[\r][\n]"
-01:03:05.462 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Connection: keep-alive[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Content-Length: 946[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Cache-Control: max-age=300[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "ETag: W/"dc0c32cea2dfa86f6cf10513cf8a64e1e8817484a415b658b4eecd962d4deaee"[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-Content-Type-Options: nosniff[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-Frame-Options: deny[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-XSS-Protection: 1; mode=block[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-GitHub-Request-Id: E412:BCCDF:12E914:232A36:69C5D077[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Content-Encoding: gzip[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Accept-Ranges: bytes[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Date: Mon, 30 Mar 2026 19:33:05 GMT[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Via: 1.1 varnish[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-Served-By: cache-maa10226-MAA[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-Cache: HIT[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-Cache-Hits: 1[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-Timer: S1774899185.178025,VS0,VE1[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Vary: Authorization,Accept-Encoding[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Access-Control-Allow-Origin: *[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Cross-Origin-Resource-Policy: cross-origin[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-Fastly-Request-ID: cb134c91a9e11c16245b9eb1d36992bfb02083f2[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Expires: Mon, 30 Mar 2026 19:38:05 GMT[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Source-Age: 290[\r][\n]"
-01:03:05.471 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "[\r][\n]"
-01:03:05.476 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
-01:03:05.476 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Connection: keep-alive[\r][\n]"
-01:03:05.476 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Content-Length: 946[\r][\n]"
-01:03:05.476 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Cache-Control: max-age=300[\r][\n]"
-01:03:05.476 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
-01:03:05.476 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
-01:03:05.476 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "ETag: W/"dc0c32cea2dfa86f6cf10513cf8a64e1e8817484a415b658b4eecd962d4deaee"[\r][\n]"
-01:03:05.476 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
-01:03:05.476 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-Content-Type-Options: nosniff[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-Frame-Options: deny[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-XSS-Protection: 1; mode=block[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-GitHub-Request-Id: E412:BCCDF:12E914:232A36:69C5D077[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Content-Encoding: gzip[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Accept-Ranges: bytes[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Date: Mon, 30 Mar 2026 19:33:05 GMT[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Via: 1.1 varnish[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-Served-By: cache-maa10222-MAA[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-Cache: HIT[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-Cache-Hits: 2[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-Timer: S1774899185.182492,VS0,VE0[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Vary: Authorization,Accept-Encoding[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Cross-Origin-Resource-Policy: cross-origin[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-Fastly-Request-ID: 4427938aff3e2ebf48d9d902a43d45e3e6549cff[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Expires: Mon, 30 Mar 2026 19:38:05 GMT[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Source-Age: 291[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << HTTP/1.1 200 OK
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << HTTP/1.1 200 OK
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "[\r][\n]"
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Connection: keep-alive
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Connection: keep-alive
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Content-Length: 946
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Cache-Control: max-age=300
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Content-Length: 946
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Cache-Control: max-age=300
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Content-Type: text/plain; charset=utf-8
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << ETag: W/"dc0c32cea2dfa86f6cf10513cf8a64e1e8817484a415b658b4eecd962d4deaee"
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Strict-Transport-Security: max-age=31536000
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-Content-Type-Options: nosniff
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << HTTP/1.1 200 OK
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Content-Type: text/plain; charset=utf-8
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Connection: keep-alive
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-Frame-Options: deny
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << ETag: W/"dc0c32cea2dfa86f6cf10513cf8a64e1e8817484a415b658b4eecd962d4deaee"
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-XSS-Protection: 1; mode=block
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Content-Length: 946
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-GitHub-Request-Id: E412:BCCDF:12E914:232A36:69C5D077
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Strict-Transport-Security: max-age=31536000
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Cache-Control: max-age=300
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Content-Encoding: gzip
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Content-Type-Options: nosniff
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Accept-Ranges: bytes
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Date: Mon, 30 Mar 2026 19:33:05 GMT
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Frame-Options: deny
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Content-Type: text/plain; charset=utf-8
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Via: 1.1 varnish
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-XSS-Protection: 1; mode=block
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-Served-By: cache-maa10226-MAA
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-GitHub-Request-Id: E412:BCCDF:12E914:232A36:69C5D077
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << ETag: W/"dc0c32cea2dfa86f6cf10513cf8a64e1e8817484a415b658b4eecd962d4deaee"
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-Cache: HIT
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Content-Encoding: gzip
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Strict-Transport-Security: max-age=31536000
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Accept-Ranges: bytes
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-Cache-Hits: 1
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-Content-Type-Options: nosniff
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Date: Mon, 30 Mar 2026 19:33:05 GMT
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-Frame-Options: deny
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-Timer: S1774899185.178025,VS0,VE1
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Via: 1.1 varnish
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-XSS-Protection: 1; mode=block
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Vary: Authorization,Accept-Encoding
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Served-By: cache-maa10236-MAA
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-GitHub-Request-Id: E412:BCCDF:12E914:232A36:69C5D077
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Access-Control-Allow-Origin: *
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Cache: HIT
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Content-Encoding: gzip
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Cross-Origin-Resource-Policy: cross-origin
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Cache-Hits: 1
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-Fastly-Request-ID: cb134c91a9e11c16245b9eb1d36992bfb02083f2
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Timer: S1774899185.177817,VS0,VE1
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Accept-Ranges: bytes
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Expires: Mon, 30 Mar 2026 19:38:05 GMT
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Vary: Authorization,Accept-Encoding
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Date: Mon, 30 Mar 2026 19:33:05 GMT
-01:03:05.477 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Source-Age: 290
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Access-Control-Allow-Origin: *
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Via: 1.1 varnish
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Cross-Origin-Resource-Policy: cross-origin
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-Served-By: cache-maa10222-MAA
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Fastly-Request-ID: dfa2c6842f7ecd5e3defee552668c5cf55354a17
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-Cache: HIT
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Expires: Mon, 30 Mar 2026 19:38:05 GMT
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-Cache-Hits: 2
-01:03:05.477 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Source-Age: 290
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-Timer: S1774899185.182492,VS0,VE0
-01:03:05.477 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Vary: Authorization,Accept-Encoding
-01:03:05.481 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Access-Control-Allow-Origin: *
-01:03:05.481 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Cross-Origin-Resource-Policy: cross-origin
-01:03:05.481 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-Fastly-Request-ID: 4427938aff3e2ebf48d9d902a43d45e3e6549cff
-01:03:05.481 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Expires: Mon, 30 Mar 2026 19:38:05 GMT
-01:03:05.481 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Source-Age: 291
-01:03:05.486 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec -- ex-0000000001 connection can be kept alive for 3 MINUTES
-01:03:05.486 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec -- ex-0000000002 connection can be kept alive for 3 MINUTES
-01:03:05.486 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec -- ex-0000000003 connection can be kept alive for 3 MINUTES
-01:03:05.499 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]X[0xffffffd1]n[0xffffffda]0[0x14]}[0xffffffe7]+,[0xffffffba]J [0x11][0xffffffb2][0x1][0xffffffeb][0xffffffaa]Jy[0xffffffa0][0x19]e[0xffffffd5][0xffffffa8]`[0xffffffd0]v[0xffffff9b][0xffffffe4][0x17][0xffffff93]8`)[0xffffff89]Q[0xffffff9c]@[0xffffffb7][0xffffffa9][0xfffffffb][0xfffffff6]9NB[0xffffffe3]$[0xc]H[0xffffffe0][0xffffffad][0xffffff8e][0xffffff8f][0xffffffef]97[0xffffffdc]s}[0xffffffd3][0xb][0xffffffa0]S[0xffffffc7]A[0xffffffae][0xffffffc9][0xffffff80][0xffffff89]|4G[0xc][0xffffffd7].[0xffffffc0][0xffffffe3][0xffffff92]0`[0x11][0x1b][0x3][0xffffff83][0xffffffba]>".[0x3][0xfffffffe]2\[0xffffffc4]P[0xffffff9f][0xffffff82]9[0x6][0xfffffff8][0x5][0x1b][0xffffff81][0xffffff8f]M@\[0xffffffb1][0xffffffcd][0xffffff96][0xffffffd8][0xffffffb6][0xffffffc3][0x5][0xfffffff5]L[0xffffffec][0xffffff85] [0x13][0xfffffffb][0xffffffd8][0xfffffff0][0xffffffc5][0xffffffe6][0x1a]{[0xffffff8c]P[0xffffffbe]g[0x1][0xffffffcc][0xffffffff]^x[0x18][0xffffffbb]`[0xffffffee][0xffffffd1][\r][0xffffffe3][0x1b][0xffffff9c][0xffffffb2][0xffffffa1]/=[0xffffffea][0xffffffe0][0x16][0xffffffb8]#[0x1e][0xffffffb6][0xffffffe8]K[0xb][0xffffff8c]W[0xffffffd8]C-00[0x17][0xfffffffc][0xffffffa9][0xffffffd8]%[0xffffff81][0xffffffd3][0xc][0xffffffe3][0xffffff9b][0xffffffc4][0xffffffb2][0xffffffb0][0xffffff87]][0x1f][0xffffffd0][0x10][0xffffffe3][0x13]w[0x1][0xffffffd8]/[0xffffffe6]c[0xffffff87][0xffffff81][0xffffffc6]w[0xffffffe2][0xffffff9a]<j[0xb][0xffffff8c][0xffffff88][0x1b][0xfffffff0]0[0xf][0xffffffc8][0x0][0xffffffe3]Y[0xffffffb3][0xffffffc6]9"[0xffffff8a]Z[0xffffff9c]F[0xffffffdb][0x10][0xffffffcb][0xfffffff6]&:[0xffffffd0]~[0xffffffff]A3[0x1c][0xffffffb3][0xffffffcd][0xffffffb3][0x2][0xffffffaa][0xe]6[0xe]1[0xffffffc4]+[0x11][0xffffffaf]a[0xffffffb3][0xffffffe4]|[0xffffffc0]E[0xe][0xffffffd6][0xffffffea][0xffffff97][0xffffff93][0xffffffe9]x8[0xffffffed]?[0xffffffdc][0xffffffdd][0xffffff8f][0x6][0xffffffb3][0x1b][0xffffffa8]Ax[0x9][0xffffffe1][0xffffff90][0xffffffd2][0xffffff85][0xffffff8d]![0xffffff8c]( [0xffffffec][0xffffffaf]V61[0xffffffb8]4[0xffffffea]B[0x18][0x13][0xfffffff1][0xffffffc8]u[0xffffffb0][0xffffffc0]>x[0xffffff8e][0xffffffdf][0xffffff85][0xffffffba]Fv[0xffffffb0][O[0xffffffa7][0xffffff84][0xffffff9e][0xffffffc6][0xffffff8f][0xffffffeb][0xffffffab][0xffffffe6]9Eu[0xf][0x14]5[0x1a][0xffffffeb][0xfffffffd]Q[0x7f]2[0xfffffff9][0xffffffdc][0x7f][0xffffffec][0xffffff9f]SOO[0xffffff9b][0xe][0xffffff86][0xffffffe0][0xffffffdb][0xffffffd3]`[0xfffffffa][0x13]|[0xfffffff9][0xffffffaa]?[0xffffffc1][0x19][0xffffffb5][0xfffffffc][\r][0xfffffff2]p[0xffffffc2][0x16][0xffffff93][0xffffffdd][0xffffff8e]n12D[0xffffffbc][0xffffffa4][0x16]w[0xffffffc6][0xfffffffc][0xffffffa8][0xffffffad][0xffffffe8][0xffffff86]c[0xffffffc2]z[0x16][0xffffffa9]*[0xffffffb1]I@c[0xffffff88]}[0xffffffe5][0xffffff9e][0x17][0x1a][0xffffffa8][0xffffffbf][0xfffffffb][0xffffff83][0xffffffdd][0xfffffff5]M:[0xffffffcd][0xffffffd7][0xc]e:[0xffffffbd]Tv[0xffffffcd]v[0xffffff9c][0xffffffda][0xffffffbd]k[0xffffffd1][0xfffffff6][0xffffffc4][0xffffffa3]f`[0xfffffff8][0xffffffcf]{$][0x1d].)W[0xe][0xffffffe7][0xffffffd4][0xfffffff5][0xffffffa9][0xffffff9c][0xffffffae]SH[0xffffffca]j[0xffffffb2]C[0xffffffbf][0xffffff87].V[0x3][0xffffffe6][0xffffffa9]s[0xffffffe2][0xffffffaa][0xb][0xffffffc1][0xffffffa1]D[0xfffffffb]@Qv[0xfffffffc][0xffffffee][0xfffffff1][0xffffffc1][0xffffff8e][0xffffffb6][0xb][0xffffff9f]=[0xffffffe0] C[0xfffffff0][0xffffffa4]T35J([0xffffffee]1m[0xffffffb4]Z[0xffffffa9]:[0xffffffef][0xffffff9d][0xffffffbc]I1[0xffffff95][0xffffffb7][0xffffffa0][0xfffffff1]L[0x6][0xffffffa4][0xffffffa3][0xfffffff3][0xffffffce][0x14]7[0xffffffbd]-[0xffffff91][0x15][0xffffffad]O[0xffffffd3][0xffffff9b][0x1e][0xffffffe8]ob[0xffffffdb](![0xffffff81]0[0xffffff89][0xffffffbe][0xffffffcf]k9[0x15][0xffffff95];[0xffffffd2][0xffffffe9][0xffffffa4]tS[0xffffffbe][0xffffffaf][0xffffffcb][0xffffffc6][0xffffff8f]I[0xffffffb2]d[0xfffffff5][0xffffffd0][0xfffffffa]z[0xffffffe0][0xffffff85][0x17]G[0xffffffb6][0xffffffac]s[0xffffffe1]{[0xffffff95][0xfffffffc][0x16]1[0xffffffff][0xfffffffd] [0xffffffa5]w[0xffffff90][0xffffffbf]rB[0xffffff8e][0xffffffe8]E[0xffffffb2][0xffffffc1][0xffffff8e][0xffffffd7][0xffffff90][0x13][0xffffff91]wT[0xffffffbc][0x3][0xffffff94][0xfffffff5].pGKar[0xffffffa0]B[0xffffffe7][0xffffffc4][0xffffffbf]O[0xffffff91]g[0xffffffd2][0xffffffb1][0xffffffb8]M[0xffffffc2]Y`[0x1b][0x13][0xfffffff3]E5[0xffffff83][0xffffffc8][0xffffffa5]I[0xc][0xffffff8f]2^C[0x10][0xffffff86]4[0xffffff99][0xffffffdb][0xffffffc9]a[0xffffff82]n_[0xffffff99][0xffffffca][0xffffff9a][0xffffffca][0xffffffd8][0xffffffe5][0xffffff8c]r[0xffffffba];[0xffffffaf][0xffffffca]72[0xffffffc1][0xfffffff5][0xffffffbf][0xffffffbb]R[0xe]Y[0xffffffd2]&[0xffffffaf]Y[0xffffffc6]tr[0xffffffa9][0xffffffdc][0xe][0xffffffb2][0xffffff8c][0xffffffac][0xffffffa8][0xffffffa4]_[0x12][0xffffffe3]V[0xffffff97]U[0xffffff93][0xffffff85][0xffffffe5]=[0xffffffe4]$[0x1c]J[0x8]([0xffffffb8][0xffffff96][0xffffffd2][0xffffffe7]:[0xffffffda]N[0xffffffb8][0xffffff8c]/t[0xffffffd6]6[0x1d][0xffffffe1][0xffffff9c]"[0xffffff83][0xffffffc9][0x8] ]Jb[0x0][0xffffffdf][0xffffffb2][0xffffff88]Q[0xfffffffb]x[0xffffffbf][0x15][0xffffffcd][0xffffff81][0xfffffffc][0xffffff8d]-<[0xffffffe4]0[0x8][0x5][0x5][0xffffff84]Q[0xffffffec]}[0xffffffd5][0xffffff9c]QP[0xffffffc5]][0xffffffa7]QPe[0x16][0xffffff8e]ym[0x14][0xffffffb8][0x6][0xffffffc7][0x1e]K[0xffffffdd][0xffffffab][0xffffff90]|E[0xffffffea][0xffffffd2]7R[0xffffffc4]+[0xffffffd1][0x1e]d[0xfffffff0][0xc][0xffffffff][0x11][0xffffffa3][0xffffffb0]<[0xffffff9d][0xffffff9f][0xffffff88][0xffffffbf][0xfffffff4][0xffffffc8][0xffffffbb]-[0xffffffba]H[0xffffffc8][[0xffffffc9][0xffffff95]Qq][0xfffffff6]-[0xffffff94]S[0xffffff91][0xffffff91][0xffffff91][0xffffffef]j[0xffffffe2]yA3[0xffffff93][0xfffffff0][0x1d]-[0xb][0xffffffcb][0xffffffe0][\n]"
-01:03:05.499 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]X[0xffffffd1]n[0xffffffda]0[0x14]}[0xffffffe7]+,[0xffffffba]J [0x11][0xffffffb2][0x1][0xffffffeb][0xffffffaa]Jy[0xffffffa0][0x19]e[0xffffffd5][0xffffffa8]`[0xffffffd0]v[0xffffff9b][0xffffffe4][0x17][0xffffff93]8`)[0xffffff89]Q[0xffffff9c]@[0xffffffb7][0xffffffa9][0xfffffffb][0xfffffff6]9NB[0xffffffe3]$[0xc]H[0xffffffe0][0xffffffad][0xffffff8e][0xffffff8f][0xffffffef]97[0xffffffdc]s}[0xffffffd3][0xb][0xffffffa0]S[0xffffffc7]A[0xffffffae][0xffffffc9][0xffffff80][0xffffff89]|4G[0xc][0xffffffd7].[0xffffffc0][0xffffffe3][0xffffff92]0`[0x11][0x1b][0x3][0xffffff83][0xffffffba]>".[0x3][0xfffffffe]2\[0xffffffc4]P[0xffffff9f][0xffffff82]9[0x6][0xfffffff8][0x5][0x1b][0xffffff81][0xffffff8f]M@\[0xffffffb1][0xffffffcd][0xffffff96][0xffffffd8][0xffffffb6][0xffffffc3][0x5][0xfffffff5]L[0xffffffec][0xffffff85] [0x13][0xfffffffb][0xffffffd8][0xfffffff0][0xffffffc5][0xffffffe6][0x1a]{[0xffffff8c]P[0xffffffbe]g[0x1][0xffffffcc][0xffffffff]^x[0x18][0xffffffbb]`[0xffffffee][0xffffffd1][\r][0xffffffe3][0x1b][0xffffff9c][0xffffffb2][0xffffffa1]/=[0xffffffea][0xffffffe0][0x16][0xffffffb8]#[0x1e][0xffffffb6][0xffffffe8]K[0xb][0xffffff8c]W[0xffffffd8]C-00[0x17][0xfffffffc][0xffffffa9][0xffffffd8]%[0xffffff81][0xffffffd3][0xc][0xffffffe3][0xffffff9b][0xffffffc4][0xffffffb2][0xffffffb0][0xffffff87]][0x1f][0xffffffd0][0x10][0xffffffe3][0x13]w[0x1][0xffffffd8]/[0xffffffe6]c[0xffffff87][0xffffff81][0xffffffc6]w[0xffffffe2][0xffffff9a]<j[0xb][0xffffff8c][0xffffff88][0x1b][0xfffffff0]0[0xf][0xffffffc8][0x0][0xffffffe3]Y[0xffffffb3][0xffffffc6]9"[0xffffff8a]Z[0xffffff9c]F[0xffffffdb][0x10][0xffffffcb][0xfffffff6]&:[0xffffffd0]~[0xffffffff]A3[0x1c][0xffffffb3][0xffffffcd][0xffffffb3][0x2][0xffffffaa][0xe]6[0xe]1[0xffffffc4]+[0x11][0xffffffaf]a[0xffffffb3][0xffffffe4]|[0xffffffc0]E[0xe][0xffffffd6][0xffffffea][0xffffff97][0xffffff93][0xffffffe9]x8[0xffffffed]?[0xffffffdc][0xffffffdd][0xffffff8f][0x6][0xffffffb3][0x1b][0xffffffa8]Ax[0x9][0xffffffe1][0xffffff90][0xffffffd2][0xffffff85][0xffffff8d]![0xffffff8c]( [0xffffffec][0xffffffaf]V61[0xffffffb8]4[0xffffffea]B[0x18][0x13][0xfffffff1][0xffffffc8]u[0xffffffb0][0xffffffc0]>x[0xffffff8e][0xffffffdf][0xffffff85][0xffffffba]Fv[0xffffffb0][O[0xffffffa7][0xffffff84][0xffffff9e][0xffffffc6][0xffffff8f][0xffffffeb][0xffffffab][0xffffffe6]9Eu[0xf][0x14]5[0x1a][0xffffffeb][0xfffffffd]Q[0x7f]2[0xfffffff9][0xffffffdc][0x7f][0xffffffec][0xffffff9f]SOO[0xffffff9b][0xe][0xffffff86][0xffffffe0][0xffffffdb][0xffffffd3]`[0xfffffffa][0x13]|[0xfffffff9][0xffffffaa]?[0xffffffc1][0x19][0xffffffb5][0xfffffffc][\r][0xfffffff2]p[0xffffffc2][0x16][0xffffff93][0xffffffdd][0xffffff8e]n12D[0xffffffbc][0xffffffa4][0x16]w[0xffffffc6][0xfffffffc][0xffffffa8][0xffffffad][0xffffffe8][0xffffff86]c[0xffffffc2]z[0x16][0xffffffa9]*[0xffffffb1]I@c[0xffffff88]}[0xffffffe5][0xffffff9e][0x17][0x1a][0xffffffa8][0xffffffbf][0xfffffffb][0xffffff83][0xffffffdd][0xfffffff5]M:[0xffffffcd][0xffffffd7][0xc]e:[0xffffffbd]Tv[0xffffffcd]v[0xffffff9c][0xffffffda][0xffffffbd]k[0xffffffd1][0xfffffff6][0xffffffc4][0xffffffa3]f`[0xfffffff8][0xffffffcf]{$][0x1d].)W[0xe][0xffffffe7][0xffffffd4][0xfffffff5][0xffffffa9][0xffffff9c][0xffffffae]SH[0xffffffca]j[0xffffffb2]C[0xffffffbf][0xffffff87].V[0x3][0xffffffe6][0xffffffa9]s[0xffffffe2][0xffffffaa][0xb][0xffffffc1][0xffffffa1]D[0xfffffffb]@Qv[0xfffffffc][0xffffffee][0xfffffff1][0xffffffc1][0xffffff8e][0xffffffb6][0xb][0xffffff9f]=[0xffffffe0] C[0xfffffff0][0xffffffa4]T35J([0xffffffee]1m[0xffffffb4]Z[0xffffffa9]:[0xffffffef][0xffffff9d][0xffffffbc]I1[0xffffff95][0xffffffb7][0xffffffa0][0xfffffff1]L[0x6][0xffffffa4][0xffffffa3][0xfffffff3][0xffffffce][0x14]7[0xffffffbd]-[0xffffff91][0x15][0xffffffad]O[0xffffffd3][0xffffff9b][0x1e][0xffffffe8]ob[0xffffffdb](![0xffffff81]0[0xffffff89][0xffffffbe][0xffffffcf]k9[0x15][0xffffff95];[0xffffffd2][0xffffffe9][0xffffffa4]tS[0xffffffbe][0xffffffaf][0xffffffcb][0xffffffc6][0xffffff8f]I[0xffffffb2]d[0xfffffff5][0xffffffd0][0xfffffffa]z[0xffffffe0][0xffffff85][0x17]G[0xffffffb6][0xffffffac]s[0xffffffe1]{[0xffffff95][0xfffffffc][0x16]1[0xffffffff][0xfffffffd] [0xffffffa5]w[0xffffff90][0xffffffbf]rB[0xffffff8e][0xffffffe8]E[0xffffffb2][0xffffffc1][0xffffff8e][0xffffffd7][0xffffff90][0x13][0xffffff91]wT[0xffffffbc][0x3][0xffffff94][0xfffffff5].pGKar[0xffffffa0]B[0xffffffe7][0xffffffc4][0xffffffbf]O[0xffffff91]g[0xffffffd2][0xffffffb1][0xffffffb8]M[0xffffffc2]Y`[0x1b][0x13][0xfffffff3]E5[0xffffff83][0xffffffc8][0xffffffa5]I[0xc][0xffffff8f]2^C[0x10][0xffffff86]4[0xffffff99][0xffffffdb][0xffffffc9]a[0xffffff82]n_[0xffffff99][0xffffffca][0xffffff9a][0xffffffca][0xffffffd8][0xffffffe5][0xffffff8c]r[0xffffffba];[0xffffffaf][0xffffffca]72[0xffffffc1][0xfffffff5][0xffffffbf][0xffffffbb]R[0xe]Y[0xffffffd2]&[0xffffffaf]Y[0xffffffc6]tr[0xffffffa9][0xffffffdc][0xe][0xffffffb2][0xffffff8c][0xffffffac][0xffffffa8][0xffffffa4]_[0x12][0xffffffe3]V[0xffffff97]U[0xffffff93][0xffffff85][0xffffffe5]=[0xffffffe4]$[0x1c]J[0x8]([0xffffffb8][0xffffff96][0xffffffd2][0xffffffe7]:[0xffffffda]N[0xffffffb8][0xffffff8c]/t[0xffffffd6]6[0x1d][0xffffffe1][0xffffff9c]"[0xffffff83][0xffffffc9][0x8] ]Jb[0x0][0xffffffdf][0xffffffb2][0xffffff88]Q[0xfffffffb]x[0xffffffbf][0x15][0xffffffcd][0xffffff81][0xfffffffc][0xffffff8d]-<[0xffffffe4]0[0x8][0x5][0x5][0xffffff84]Q[0xffffffec]}[0xffffffd5][0xffffff9c]QP[0xffffffc5]][0xffffffa7]QPe[0x16][0xffffff8e]ym[0x14][0xffffffb8][0x6][0xffffffc7][0x1e]K[0xffffffdd][0xffffffab][0xffffff90]|E[0xffffffea][0xffffffd2]7R[0xffffffc4]+[0xffffffd1][0x1e]d[0xfffffff0][0xc][0xffffffff][0x11][0xffffffa3][0xffffffb0]<[0xffffff9d][0xffffff9f][0xffffff88][0xffffffbf][0xfffffff4][0xffffffc8][0xffffffbb]-[0xffffffba]H[0xffffffc8][[0xffffffc9][0xffffff95]Qq][0xfffffff6]-[0xffffff94]S[0xffffff91][0xffffff91][0xffffff91][0xffffffef]j[0xffffffe2]yA3[0xffffff93][0xfffffff0][0x1d]-[0xb][0xffffffcb][0xffffffe0][\n]"
-01:03:05.499 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "[0xffffffbb][0xffffff98][0x10]Z[0xffffffd4][0xffffffbc][0xffffffc6][0xffffffd9]`[0xffffffc9]7>[0x9][0x1c]yf[0xffffffe7][0xf]N[0xffffffd3][0xffffffba][0xffffff92][0xfffffff0][0x15]>^%-[0xffffff95]'[0xffffffea]S[0xb]:[0xffffffb4][0xffffffa7][0x15]5[0xffffff96]Sk)=]l[0xffffff85]T[0xfffffffe][0xffffffd4][0xffffff95][0xfffffff4]T[0xffffff9b]-[0xffffffce]$[0xffffffaa]t;[0xffffffac][0xffffffa4]'/([0xffffffdf][0x12][0xffffff92]-%[0xfffffffe]7[0xffffffdf][0xffffffae]/[0xfffffff0][0xffffffd4]in[0xffffff87][0xffffffe3][0xf]u[0xfffffff3][0xffffff94][0x7][0xffffff9c][0xffffffea]i[0x5][0xffffffe0]<[0xffffffba][0xffffffb0]#%[0xffffffaf][0xffffffae][0xffffffa8])[0xffffffe9][0x5]Q/[0xffffffc0][0xc]Y[0xffffffc8]#[0xffffffdb][0xfffffff0]L,[0xffffff8b][0xffffff83]G[0xffffffd0][0xffffffa2][0xffffffd0][0xffffffd1]N*[0xfffffff0]?l[0x1d]d@[0xffffffbe][0x15][0x0][0x0]"
-01:03:05.499 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "[0xffffffbb][0xffffff98][0x10]Z[0xffffffd4][0xffffffbc][0xffffffc6][0xffffffd9]`[0xffffffc9]7>[0x9][0x1c]yf[0xffffffe7][0xf]N[0xffffffd3][0xffffffba][0xffffff92][0xfffffff0][0x15]>^%-[0xffffff95]'[0xffffffea]S[0xb]:[0xffffffb4][0xffffffa7][0x15]5[0xffffff96]Sk)=]l[0xffffff85]T[0xfffffffe][0xffffffd4][0xffffff95][0xfffffff4]T[0xffffff9b]-[0xffffffce]$[0xffffffaa]t;[0xffffffac][0xffffffa4]'/([0xffffffdf][0x12][0xffffff92]-%[0xfffffffe]7[0xffffffdf][0xffffffae]/[0xfffffff0][0xffffffd4]in[0xffffff87][0xffffffe3][0xf]u[0xfffffff3][0xffffff94][0x7][0xffffff9c][0xffffffea]i[0x5][0xffffffe0]<[0xffffffba][0xffffffb0]#%[0xffffffaf][0xffffffae][0xffffffa8])[0xffffffe9][0x5]Q/[0xffffffc0][0xc]Y[0xffffffc8]#[0xffffffdb][0xfffffff0]L,[0xffffff8b][0xffffff83]G[0xffffffd0][0xffffffa2][0xffffffd0][0xffffffd1]N*[0xfffffff0]?l[0x1d]d@[0xffffffbe][0x15][0x0][0x0]"
-01:03:05.499 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]X[0xffffffd1]n[0xffffffda]0[0x14]}[0xffffffe7]+,[0xffffffba]J [0x11][0xffffffb2][0x1][0xffffffeb][0xffffffaa]Jy[0xffffffa0][0x19]e[0xffffffd5][0xffffffa8]`[0xffffffd0]v[0xffffff9b][0xffffffe4][0x17][0xffffff93]8`)[0xffffff89]Q[0xffffff9c]@[0xffffffb7][0xffffffa9][0xfffffffb][0xfffffff6]9NB[0xffffffe3]$[0xc]H[0xffffffe0][0xffffffad][0xffffff8e][0xffffff8f][0xffffffef]97[0xffffffdc]s}[0xffffffd3][0xb][0xffffffa0]S[0xffffffc7]A[0xffffffae][0xffffffc9][0xffffff80][0xffffff89]|4G[0xc][0xffffffd7].[0xffffffc0][0xffffffe3][0xffffff92]0`[0x11][0x1b][0x3][0xffffff83][0xffffffba]>".[0x3][0xfffffffe]2\[0xffffffc4]P[0xffffff9f][0xffffff82]9[0x6][0xfffffff8][0x5][0x1b][0xffffff81][0xffffff8f]M@\[0xffffffb1][0xffffffcd][0xffffff96][0xffffffd8][0xffffffb6][0xffffffc3][0x5][0xfffffff5]L[0xffffffec][0xffffff85] [0x13][0xfffffffb][0xffffffd8][0xfffffff0][0xffffffc5][0xffffffe6][0x1a]{[0xffffff8c]P[0xffffffbe]g[0x1][0xffffffcc][0xffffffff]^x[0x18][0xffffffbb]`[0xffffffee][0xffffffd1][\r][0xffffffe3][0x1b][0xffffff9c][0xffffffb2][0xffffffa1]/=[0xffffffea][0xffffffe0][0x16][0xffffffb8]#[0x1e][0xffffffb6][0xffffffe8]K[0xb][0xffffff8c]W[0xffffffd8]C-00[0x17][0xfffffffc][0xffffffa9][0xffffffd8]%[0xffffff81][0xffffffd3][0xc][0xffffffe3][0xffffff9b][0xffffffc4][0xffffffb2][0xffffffb0][0xffffff87]][0x1f][0xffffffd0][0x10][0xffffffe3][0x13]w[0x1][0xffffffd8]/[0xffffffe6]c[0xffffff87][0xffffff81][0xffffffc6]w[0xffffffe2][0xffffff9a]<j[0xb][0xffffff8c][0xffffff88][0x1b][0xfffffff0]0[0xf][0xffffffc8][0x0][0xffffffe3]Y[0xffffffb3][0xffffffc6]9"[0xffffff8a]Z[0xffffff9c]F[0xffffffdb][0x10][0xffffffcb][0xfffffff6]&:[0xffffffd0]~[0xffffffff]A3[0x1c][0xffffffb3][0xffffffcd][0xffffffb3][0x2][0xffffffaa][0xe]6[0xe]1[0xffffffc4]+[0x11][0xffffffaf]a[0xffffffb3][0xffffffe4]|[0xffffffc0]E[0xe][0xffffffd6][0xffffffea][0xffffff97][0xffffff93][0xffffffe9]x8[0xffffffed]?[0xffffffdc][0xffffffdd][0xffffff8f][0x6][0xffffffb3][0x1b][0xffffffa8]Ax[0x9][0xffffffe1][0xffffff90][0xffffffd2][0xffffff85][0xffffff8d]![0xffffff8c]( [0xffffffec][0xffffffaf]V61[0xffffffb8]4[0xffffffea]B[0x18][0x13][0xfffffff1][0xffffffc8]u[0xffffffb0][0xffffffc0]>x[0xffffff8e][0xffffffdf][0xffffff85][0xffffffba]Fv[0xffffffb0][O[0xffffffa7][0xffffff84][0xffffff9e][0xffffffc6][0xffffff8f][0xffffffeb][0xffffffab][0xffffffe6]9Eu[0xf][0x14]5[0x1a][0xffffffeb][0xfffffffd]Q[0x7f]2[0xfffffff9][0xffffffdc][0x7f][0xffffffec][0xffffff9f]SOO[0xffffff9b][0xe][0xffffff86][0xffffffe0][0xffffffdb][0xffffffd3]`[0xfffffffa][0x13]|[0xfffffff9][0xffffffaa]?[0xffffffc1][0x19][0xffffffb5][0xfffffffc][\r][0xfffffff2]p[0xffffffc2][0x16][0xffffff93][0xffffffdd][0xffffff8e]n12D[0xffffffbc][0xffffffa4][0x16]w[0xffffffc6][0xfffffffc][0xffffffa8][0xffffffad][0xffffffe8][0xffffff86]c[0xffffffc2]z[0x16][0xffffffa9]*[0xffffffb1]I@c[0xffffff88]}[0xffffffe5][0xffffff9e][0x17][0x1a][0xffffffa8][0xffffffbf][0xfffffffb][0xffffff83][0xffffffdd][0xfffffff5]M:[0xffffffcd][0xffffffd7][0xc]e:[0xffffffbd]Tv[0xffffffcd]v[0xffffff9c][0xffffffda][0xffffffbd]k[0xffffffd1][0xfffffff6][0xffffffc4][0xffffffa3]f`[0xfffffff8][0xffffffcf]{$][0x1d].)W[0xe][0xffffffe7][0xffffffd4][0xfffffff5][0xffffffa9][0xffffff9c][0xffffffae]SH[0xffffffca]j[0xffffffb2]C[0xffffffbf][0xffffff87].V[0x3][0xffffffe6][0xffffffa9]s[0xffffffe2][0xffffffaa][0xb][0xffffffc1][0xffffffa1]D[0xfffffffb]@Qv[0xfffffffc][0xffffffee][0xfffffff1][0xffffffc1][0xffffff8e][0xffffffb6][0xb][0xffffff9f]=[0xffffffe0] C[0xfffffff0][0xffffffa4]T35J([0xffffffee]1m[0xffffffb4]Z[0xffffffa9]:[0xffffffef][0xffffff9d][0xffffffbc]I1[0xffffff95][0xffffffb7][0xffffffa0][0xfffffff1]L[0x6][0xffffffa4][0xffffffa3][0xfffffff3][0xffffffce][0x14]7[0xffffffbd]-[0xffffff91][0x15][0xffffffad]O[0xffffffd3][0xffffff9b][0x1e][0xffffffe8]ob[0xffffffdb](![0xffffff81]0[0xffffff89][0xffffffbe][0xffffffcf]k9[0x15][0xffffff95];[0xffffffd2][0xffffffe9][0xffffffa4]tS[0xffffffbe][0xffffffaf][0xffffffcb][0xffffffc6][0xffffff8f]I[0xffffffb2]d[0xfffffff5][0xffffffd0][0xfffffffa]z[0xffffffe0][0xffffff85][0x17]G[0xffffffb6][0xffffffac]s[0xffffffe1]{[0xffffff95][0xfffffffc][0x16]1[0xffffffff][0xfffffffd] [0xffffffa5]w[0xffffff90][0xffffffbf]rB[0xffffff8e][0xffffffe8]E[0xffffffb2][0xffffffc1][0xffffff8e][0xffffffd7][0xffffff90][0x13][0xffffff91]wT[0xffffffbc][0x3][0xffffff94][0xfffffff5].pGKar[0xffffffa0]B[0xffffffe7][0xffffffc4][0xffffffbf]O[0xffffff91]g[0xffffffd2][0xffffffb1][0xffffffb8]M[0xffffffc2]Y`[0x1b][0x13][0xfffffff3]E5[0xffffff83][0xffffffc8][0xffffffa5]I[0xc][0xffffff8f]2^C[0x10][0xffffff86]4[0xffffff99][0xffffffdb][0xffffffc9]a[0xffffff82]n_[0xffffff99][0xffffffca][0xffffff9a][0xffffffca][0xffffffd8][0xffffffe5][0xffffff8c]r[0xffffffba];[0xffffffaf][0xffffffca]72[0xffffffc1][0xfffffff5][0xffffffbf][0xffffffbb]R[0xe]Y[0xffffffd2]&[0xffffffaf]Y[0xffffffc6]tr[0xffffffa9][0xffffffdc][0xe][0xffffffb2][0xffffff8c][0xffffffac][0xffffffa8][0xffffffa4]_[0x12][0xffffffe3]V[0xffffff97]U[0xffffff93][0xffffff85][0xffffffe5]=[0xffffffe4]$[0x1c]J[0x8]([0xffffffb8][0xffffff96][0xffffffd2][0xffffffe7]:[0xffffffda]N[0xffffffb8][0xffffff8c]/t[0xffffffd6]6[0x1d][0xffffffe1][0xffffff9c]"[0xffffff83][0xffffffc9][0x8] ]Jb[0x0][0xffffffdf][0xffffffb2][0xffffff88]Q[0xfffffffb]x[0xffffffbf][0x15][0xffffffcd][0xffffff81][0xfffffffc][0xffffff8d]-<[0xffffffe4]0[0x8][0x5][0x5][0xffffff84]Q[0xffffffec]}[0xffffffd5][0xffffff9c]QP[0xffffffc5]][0xffffffa7]QPe[0x16][0xffffff8e]ym[0x14][0xffffffb8][0x6][0xffffffc7][0x1e]K[0xffffffdd][0xffffffab][0xffffff90]|E[0xffffffea][0xffffffd2]7R[0xffffffc4]+[0xffffffd1][0x1e]d[0xfffffff0][0xc][0xffffffff][0x11][0xffffffa3][0xffffffb0]<[0xffffff9d][0xffffff9f][0xffffff88][0xffffffbf][0xfffffff4][0xffffffc8][0xffffffbb]-[0xffffffba]H[0xffffffc8][[0xffffffc9][0xffffff95]Qq][0xfffffff6]-[0xffffff94]S[0xffffff91][0xffffff91][0xffffff91][0xffffffef]j[0xffffffe2]yA3[0xffffff93][0xfffffff0][0x1d]-[0xb][0xffffffcb][0xffffffe0][\n]"
-01:03:05.499 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "[0xffffffbb][0xffffff98][0x10]Z[0xffffffd4][0xffffffbc][0xffffffc6][0xffffffd9]`[0xffffffc9]7>[0x9][0x1c]yf[0xffffffe7][0xf]N[0xffffffd3][0xffffffba][0xffffff92][0xfffffff0][0x15]>^%-[0xffffff95]'[0xffffffea]S[0xb]:[0xffffffb4][0xffffffa7][0x15]5[0xffffff96]Sk)=]l[0xffffff85]T[0xfffffffe][0xffffffd4][0xffffff95][0xfffffff4]T[0xffffff9b]-[0xffffffce]$[0xffffffaa]t;[0xffffffac][0xffffffa4]'/([0xffffffdf][0x12][0xffffff92]-%[0xfffffffe]7[0xffffffdf][0xffffffae]/[0xfffffff0][0xffffffd4]in[0xffffff87][0xffffffe3][0xf]u[0xfffffff3][0xffffff94][0x7][0xffffff9c][0xffffffea]i[0x5][0xffffffe0]<[0xffffffba][0xffffffb0]#%[0xffffffaf][0xffffffae][0xffffffa8])[0xffffffe9][0x5]Q/[0xffffffc0][0xc]Y[0xffffffc8]#[0xffffffdb][0xfffffff0]L,[0xffffff8b][0xffffff83]G[0xffffffd0][0xffffffa2][0xffffffd0][0xffffffd1]N*[0xfffffff0]?l[0x1d]d@[0xffffffbe][0x15][0x0][0x0]"
-01:03:05.508 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000001 releasing valid endpoint
-01:03:05.508 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000003 releasing valid endpoint
-01:03:05.508 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000002 releasing valid endpoint
-01:03:05.508 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000002 releasing endpoint
-01:03:05.508 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 releasing endpoint
-01:03:05.508 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000003 releasing endpoint
-01:03:05.508 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000002 connection http-outgoing-1 can be kept alive for 3 MINUTES
-01:03:05.508 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 connection http-outgoing-2 can be kept alive for 3 MINUTES
-01:03:05.508 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000003 connection http-outgoing-0 can be kept alive for 3 MINUTES
-01:03:05.509 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000002 connection released [route: {s}->[https://raw.githubusercontent.com:443]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
-01:03:05.509 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000003 connection released [route: {s}->[https://raw.githubusercontent.com:443]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
-01:03:05.509 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000001 connection released [route: {s}->[https://raw.githubusercontent.com:443]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
-01:03:05.509 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.versions.VersionDetector -- Detecting firefox version using online commands.properties
-01:03:05.509 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.versions.VersionDetector -- Detecting firefox version using online commands.properties
-01:03:05.509 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.versions.VersionDetector -- Detecting firefox version using online commands.properties
-01:03:05.523 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.versions.Shell -- Running command on the shell: [powershell.exe, -Command, (Get-Item "${env:PROGRAMFILES}\Mozill~1\firefox.exe").VersionInfo.ProductVersion]
-01:03:05.523 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.versions.Shell -- Running command on the shell: [powershell.exe, -Command, (Get-Item "${env:PROGRAMFILES}\Mozill~1\firefox.exe").VersionInfo.ProductVersion]
-01:03:05.523 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.versions.Shell -- Running command on the shell: [powershell.exe, -Command, (Get-Item "${env:PROGRAMFILES}\Mozill~1\firefox.exe").VersionInfo.ProductVersion]
-01:03:06.054 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Reading https://raw.githubusercontent.com/SeleniumHQ/selenium/trunk/common/geckodriver/geckodriver-support.json to discover geckodriver version
-01:03:06.054 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Reading https://raw.githubusercontent.com/SeleniumHQ/selenium/trunk/common/geckodriver/geckodriver-support.json to discover geckodriver version
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000004 preparing request execution
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000005 preparing request execution
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec -- ex-0000000004 target auth state: UNCHALLENGED
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec -- ex-0000000004 proxy auth state: UNCHALLENGED
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec -- ex-0000000004 acquiring connection with route {s}->[https://raw.githubusercontent.com:443]
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Reading https://raw.githubusercontent.com/SeleniumHQ/selenium/trunk/common/geckodriver/geckodriver-support.json to discover geckodriver version
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec -- ex-0000000005 target auth state: UNCHALLENGED
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec -- ex-0000000005 proxy auth state: UNCHALLENGED
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000004 acquiring endpoint (3 MINUTES)
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec -- ex-0000000005 acquiring connection with route {s}->[https://raw.githubusercontent.com:443]
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000005 acquiring endpoint (3 MINUTES)
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000004 endpoint lease request (3 MINUTES) [route: {s}->[https://raw.githubusercontent.com:443]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000006 preparing request execution
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000004 endpoint leased [route: {s}->[https://raw.githubusercontent.com:443]][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000004 acquired ep-0000000004
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000005 endpoint lease request (3 MINUTES) [route: {s}->[https://raw.githubusercontent.com:443]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec -- ex-0000000006 target auth state: UNCHALLENGED
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.ProtocolExec -- ex-0000000006 proxy auth state: UNCHALLENGED
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.ConnectExec -- ex-0000000006 acquiring connection with route {s}->[https://raw.githubusercontent.com:443]
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000005 endpoint leased [route: {s}->[https://raw.githubusercontent.com:443]][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000004 acquired endpoint ep-0000000004
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000006 acquiring endpoint (3 MINUTES)
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec -- ex-0000000004 executing GET /SeleniumHQ/selenium/trunk/common/geckodriver/geckodriver-support.json
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.protocol.RequestAddCookies -- ex-0000000004 Cookie spec selected: strict
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000006 endpoint lease request (3 MINUTES) [route: {s}->[https://raw.githubusercontent.com:443]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000004 start execution ex-0000000004
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000004 executing exchange ex-0000000004 over http-outgoing-1
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000006 endpoint leased [route: {s}->[https://raw.githubusercontent.com:443]][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000005 acquired ep-0000000005
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 >> GET /SeleniumHQ/selenium/trunk/common/geckodriver/geckodriver-support.json HTTP/1.1
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000005 acquired endpoint ep-0000000005
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec -- ex-0000000005 executing GET /SeleniumHQ/selenium/trunk/common/geckodriver/geckodriver-support.json
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ex-0000000006 acquired ep-0000000006
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.protocol.RequestAddCookies -- ex-0000000005 Cookie spec selected: strict
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ex-0000000006 acquired endpoint ep-0000000006
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000005 start execution ex-0000000005
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000005 executing exchange ex-0000000005 over http-outgoing-2
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 >> GET /SeleniumHQ/selenium/trunk/common/geckodriver/geckodriver-support.json HTTP/1.1
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 >> user-agent: Apache-HttpClient/5.0
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 >> accept-encoding: gzip, deflate, br
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 >> cache-control: max-age=0
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 >> connection: keep-alive
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 >> user-agent: Apache-HttpClient/5.0
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec -- ex-0000000006 executing GET /SeleniumHQ/selenium/trunk/common/geckodriver/geckodriver-support.json
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.protocol.RequestAddCookies -- ex-0000000006 Cookie spec selected: strict
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 >> Host: raw.githubusercontent.com
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 >> accept-encoding: gzip, deflate, br
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000006 start execution ex-0000000006
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000006 executing exchange ex-0000000006 over http-outgoing-0
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 >> cache-control: max-age=0
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> GET /SeleniumHQ/selenium/trunk/common/geckodriver/geckodriver-support.json HTTP/1.1
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 >> connection: keep-alive
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 >> "GET /SeleniumHQ/selenium/trunk/common/geckodriver/geckodriver-support.json HTTP/1.1[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 >> "accept-encoding: gzip, deflate, br[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 >> "cache-control: max-age=0[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 >> Host: raw.githubusercontent.com
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 >> "connection: keep-alive[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 >> "GET /SeleniumHQ/selenium/trunk/common/geckodriver/geckodriver-support.json HTTP/1.1[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 >> "accept-encoding: gzip, deflate, br[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 >> "cache-control: max-age=0[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 >> "connection: keep-alive[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> accept-encoding: gzip, deflate, br
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 >> "Host: raw.githubusercontent.com[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> cache-control: max-age=0
-01:03:06.062 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 >> "[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 >> "Host: raw.githubusercontent.com[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> connection: keep-alive
-01:03:06.062 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 >> "[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 >> Host: raw.githubusercontent.com
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "GET /SeleniumHQ/selenium/trunk/common/geckodriver/geckodriver-support.json HTTP/1.1[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "connection: keep-alive[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
-01:03:06.062 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 >> "[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Connection: keep-alive[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Content-Length: 250[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "ETag: W/"a5afee4dd3c20b07ed86ccb2fa50eb07b2e8e0bea429cd0fbf2e91925a447efb"[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-GitHub-Request-Id: 151A:393BFF:3C3FC8:6AD085:69C87C08[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Date: Mon, 30 Mar 2026 19:33:05 GMT[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Served-By: cache-maa10236-MAA[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Cache: HIT[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Cache-Hits: 0[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Timer: S1774899186.801030,VS0,VE1[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Cross-Origin-Resource-Policy: cross-origin[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "X-Fastly-Request-ID: 84060effc8f29fa3f867599bb2904100dbb5725b[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Expires: Mon, 30 Mar 2026 19:38:05 GMT[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "Source-Age: 211[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "[\r][\n]"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << HTTP/1.1 200 OK
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Connection: keep-alive
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Content-Length: 250
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Cache-Control: max-age=300
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Content-Type: text/plain; charset=utf-8
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << ETag: W/"a5afee4dd3c20b07ed86ccb2fa50eb07b2e8e0bea429cd0fbf2e91925a447efb"
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Strict-Transport-Security: max-age=31536000
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Content-Type-Options: nosniff
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Frame-Options: deny
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-XSS-Protection: 1; mode=block
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-GitHub-Request-Id: 151A:393BFF:3C3FC8:6AD085:69C87C08
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Content-Encoding: gzip
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Accept-Ranges: bytes
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Date: Mon, 30 Mar 2026 19:33:05 GMT
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Via: 1.1 varnish
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Served-By: cache-maa10236-MAA
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Cache: HIT
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Cache-Hits: 0
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Timer: S1774899186.801030,VS0,VE1
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Vary: Authorization,Accept-Encoding
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Access-Control-Allow-Origin: *
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Cross-Origin-Resource-Policy: cross-origin
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << X-Fastly-Request-ID: 84060effc8f29fa3f867599bb2904100dbb5725b
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Expires: Mon, 30 Mar 2026 19:38:05 GMT
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-0 << Source-Age: 211
-01:03:06.077 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec -- ex-0000000006 connection can be kept alive for 3 MINUTES
-01:03:06.093 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffc5][0xffffffd6]A[\n]"
-01:03:06.093 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-0 << "[0xffffff83]0[0x10][0x5][0xffffffd0][0xffffffbd][0xffffffa7][0x8]Y[0xffffffab]$[0xffffffb1]1[0xffffffda][0xffffffab][0xffffff94].[0xffffffa4][0xffffff8d]%[0xffffffb4]UP([0xffffff82]x[0xfffffff7][0x6]AZJa&0[0xffffff92][0xffffff85][0xffffffd9][0xfffffff8][0xffffff99][0xffffffc7]D[0xfffffff8]8'[0xffffff8c][0xfffffff1][0xffffff9b][0xffffffbd][0xffffffdc][0xfffffffb][0xffffffeb][0xffffffe0]^v[0xffffffc8][0x6][0xfffffffb][0xffffffb0][0xffffffcd]hG~d'[0xffffffff][0xffffff8e][0xffffffb1]y=[0x7f]R[0xfffffffe][0x19]][0xffffffdf][0xfffffff9][0x10][0x17]yQ[0xffffffe6][0xffffff82][0xffffffa7][[0xffffffec][0xffffffe9][0xffffffba][0xffffffac]u[0xffffff83]m[0xfffffffb][0xffffffe9]+&U[0xffffffb5][0x6][0xffffff96][0x14];T#[0xffffff86]J[0x1d]8[0xfffffff4][0xffffffb0][0xffffffc7][0xffffffd0][0x2]1T[0xffffffa8]O[0xffffffa2][0xffffff99][0xfffffffe]^[0xffffff90][0x8]dU[0xffffffae][0xffffffe2][0xffffffb0]2[0xe][0x1b][0xffffffe5][0xffffff92]%[0xffffffcc][0xffffffd6][0xffffff92]\[0x15][0xffffffb0]j*@[0xffffffad][0x3]QU[0xffffffc3][0x1f][0xffffffb6][0x14][0xfffffff4]([0xffffffb8])=Z[0xffffffc5]@M[0xc][0x14][0xffffffd1][0xffffffcc][0xfffffff4]([0xffffffa2][0xffffffb9][0xffffffb5][0xffffffa1]F[0x11][0xffffffcd][0xe][0xffffffa2][0xffffffa6][0xe]D[0x11][0xffffffcd]O[0xffffff8f]"[0xffffff9a][0xffffff90][0x1e]E[0xfffffff4] =*[0xffffffe0]F[0xffffffd2][0x1a]@K[0x15][0xffffff8c][0xffffffc2][0xffffff9b]R[0xffffffa3][0x12][0xffffffd1][0xffffffbd]{[0xffffffa0][0x11]6Et[0xffffffaf].[0xffffffa8]QD[0xfffffff7]j[0xffffffe8][0xffffffdf]aC[0xfffffffd]yN[0xffffff96][0xffffffe4][\r]%[0xffffffad]A[0x8]9[0xb][0x0][0x0]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Connection: keep-alive[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Content-Length: 250[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Cache-Control: max-age=300[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "ETag: W/"a5afee4dd3c20b07ed86ccb2fa50eb07b2e8e0bea429cd0fbf2e91925a447efb"[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-Content-Type-Options: nosniff[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-Frame-Options: deny[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-XSS-Protection: 1; mode=block[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-GitHub-Request-Id: 151A:393BFF:3C3FC8:6AD085:69C87C08[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Content-Encoding: gzip[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Accept-Ranges: bytes[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Date: Mon, 30 Mar 2026 19:33:05 GMT[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Via: 1.1 varnish[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-Served-By: cache-maa10226-MAA[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-Cache: HIT[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-Cache-Hits: 1[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-Timer: S1774899186.801628,VS0,VE1[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Vary: Authorization,Accept-Encoding[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Access-Control-Allow-Origin: *[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Cross-Origin-Resource-Policy: cross-origin[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "X-Fastly-Request-ID: 7b5e7499e90f5301d44a2d1814a858fa570326f1[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Expires: Mon, 30 Mar 2026 19:38:05 GMT[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "Source-Age: 211[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "[\r][\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << HTTP/1.1 200 OK
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Connection: keep-alive
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Content-Length: 250
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Cache-Control: max-age=300
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Content-Type: text/plain; charset=utf-8
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << ETag: W/"a5afee4dd3c20b07ed86ccb2fa50eb07b2e8e0bea429cd0fbf2e91925a447efb"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Strict-Transport-Security: max-age=31536000
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-Content-Type-Options: nosniff
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-Frame-Options: deny
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-XSS-Protection: 1; mode=block
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-GitHub-Request-Id: 151A:393BFF:3C3FC8:6AD085:69C87C08
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Content-Encoding: gzip
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Accept-Ranges: bytes
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Date: Mon, 30 Mar 2026 19:33:05 GMT
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Via: 1.1 varnish
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-Served-By: cache-maa10226-MAA
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-Cache: HIT
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-Cache-Hits: 1
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-Timer: S1774899186.801628,VS0,VE1
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Vary: Authorization,Accept-Encoding
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Access-Control-Allow-Origin: *
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Cross-Origin-Resource-Policy: cross-origin
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << X-Fastly-Request-ID: 7b5e7499e90f5301d44a2d1814a858fa570326f1
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Expires: Mon, 30 Mar 2026 19:38:05 GMT
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-2 << Source-Age: 211
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec -- ex-0000000005 connection can be kept alive for 3 MINUTES
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffc5][0xffffffd6]A[\n]"
-01:03:06.093 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-2 << "[0xffffff83]0[0x10][0x5][0xffffffd0][0xffffffbd][0xffffffa7][0x8]Y[0xffffffab]$[0xffffffb1]1[0xffffffda][0xffffffab][0xffffff94].[0xffffffa4][0xffffff8d]%[0xffffffb4]UP([0xffffff82]x[0xfffffff7][0x6]AZJa&0[0xffffff92][0xffffff85][0xffffffd9][0xfffffff8][0xffffff99][0xffffffc7]D[0xfffffff8]8'[0xffffff8c][0xfffffff1][0xffffff9b][0xffffffbd][0xffffffdc][0xfffffffb][0xffffffeb][0xffffffe0]^v[0xffffffc8][0x6][0xfffffffb][0xffffffb0][0xffffffcd]hG~d'[0xffffffff][0xffffff8e][0xffffffb1]y=[0x7f]R[0xfffffffe][0x19]][0xffffffdf][0xfffffff9][0x10][0x17]yQ[0xffffffe6][0xffffff82][0xffffffa7][[0xffffffec][0xffffffe9][0xffffffba][0xffffffac]u[0xffffff83]m[0xfffffffb][0xffffffe9]+&U[0xffffffb5][0x6][0xffffff96][0x14];T#[0xffffff86]J[0x1d]8[0xfffffff4][0xffffffb0][0xffffffc7][0xffffffd0][0x2]1T[0xffffffa8]O[0xffffffa2][0xffffff99][0xfffffffe]^[0xffffff90][0x8]dU[0xffffffae][0xffffffe2][0xffffffb0]2[0xe][0x1b][0xffffffe5][0xffffff92]%[0xffffffcc][0xffffffd6][0xffffff92]\[0x15][0xffffffb0]j*@[0xffffffad][0x3]QU[0xffffffc3][0x1f][0xffffffb6][0x14][0xfffffff4]([0xffffffb8])=Z[0xffffffc5]@M[0xc][0x14][0xffffffd1][0xffffffcc][0xfffffff4]([0xffffffa2][0xffffffb9][0xffffffb5][0xffffffa1]F[0x11][0xffffffcd][0xe][0xffffffa2][0xffffffa6][0xe]D[0x11][0xffffffcd]O[0xffffff8f]"[0xffffff9a][0xffffff90][0x1e]E[0xfffffff4] =*[0xffffffe0]F[0xffffffd2][0x1a]@K[0x15][0xffffff8c][0xffffffc2][0xffffff9b]R[0xffffffa3][0x12][0xffffffd1][0xffffffbd]{[0xffffffa0][0x11]6Et[0xffffffaf].[0xffffffa8]QD[0xfffffff7]j[0xffffffe8][0xffffffdf]aC[0xfffffffd]yN[0xffffff96][0xffffffe4][\r]%[0xffffffad]A[0x8]9[0xb][0x0][0x0]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Connection: keep-alive[\r][\n]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Content-Length: 250[\r][\n]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Cache-Control: max-age=300[\r][\n]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "ETag: W/"a5afee4dd3c20b07ed86ccb2fa50eb07b2e8e0bea429cd0fbf2e91925a447efb"[\r][\n]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-Content-Type-Options: nosniff[\r][\n]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-Frame-Options: deny[\r][\n]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-XSS-Protection: 1; mode=block[\r][\n]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-GitHub-Request-Id: 151A:393BFF:3C3FC8:6AD085:69C87C08[\r][\n]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Content-Encoding: gzip[\r][\n]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Accept-Ranges: bytes[\r][\n]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Date: Mon, 30 Mar 2026 19:33:05 GMT[\r][\n]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Via: 1.1 varnish[\r][\n]"
-01:03:06.099 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-Served-By: cache-maa10222-MAA[\r][\n]"
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-Cache: HIT[\r][\n]"
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-Cache-Hits: 1[\r][\n]"
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-Timer: S1774899186.805788,VS0,VE1[\r][\n]"
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Vary: Authorization,Accept-Encoding[\r][\n]"
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Cross-Origin-Resource-Policy: cross-origin[\r][\n]"
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "X-Fastly-Request-ID: 517e04dec1f633dd61a802ee974a9f98b84ccc0e[\r][\n]"
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Expires: Mon, 30 Mar 2026 19:38:05 GMT[\r][\n]"
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "Source-Age: 211[\r][\n]"
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "[\r][\n]"
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << HTTP/1.1 200 OK
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Connection: keep-alive
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Content-Length: 250
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Cache-Control: max-age=300
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Content-Type: text/plain; charset=utf-8
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << ETag: W/"a5afee4dd3c20b07ed86ccb2fa50eb07b2e8e0bea429cd0fbf2e91925a447efb"
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Strict-Transport-Security: max-age=31536000
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-Content-Type-Options: nosniff
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-Frame-Options: deny
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-XSS-Protection: 1; mode=block
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-GitHub-Request-Id: 151A:393BFF:3C3FC8:6AD085:69C87C08
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Content-Encoding: gzip
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Accept-Ranges: bytes
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Date: Mon, 30 Mar 2026 19:33:05 GMT
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Via: 1.1 varnish
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-Served-By: cache-maa10222-MAA
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-Cache: HIT
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-Cache-Hits: 1
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-Timer: S1774899186.805788,VS0,VE1
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Vary: Authorization,Accept-Encoding
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Access-Control-Allow-Origin: *
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Cross-Origin-Resource-Policy: cross-origin
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << X-Fastly-Request-ID: 517e04dec1f633dd61a802ee974a9f98b84ccc0e
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Expires: Mon, 30 Mar 2026 19:38:05 GMT
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.headers -- http-outgoing-1 << Source-Age: 211
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.MainClientExec -- ex-0000000004 connection can be kept alive for 3 MINUTES
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffc5][0xffffffd6]A[\n]"
-01:03:06.100 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.wire -- http-outgoing-1 << "[0xffffff83]0[0x10][0x5][0xffffffd0][0xffffffbd][0xffffffa7][0x8]Y[0xffffffab]$[0xffffffb1]1[0xffffffda][0xffffffab][0xffffff94].[0xffffffa4][0xffffff8d]%[0xffffffb4]UP([0xffffff82]x[0xfffffff7][0x6]AZJa&0[0xffffff92][0xffffff85][0xffffffd9][0xfffffff8][0xffffff99][0xffffffc7]D[0xfffffff8]8'[0xffffff8c][0xfffffff1][0xffffff9b][0xffffffbd][0xffffffdc][0xfffffffb][0xffffffeb][0xffffffe0]^v[0xffffffc8][0x6][0xfffffffb][0xffffffb0][0xffffffcd]hG~d'[0xffffffff][0xffffff8e][0xffffffb1]y=[0x7f]R[0xfffffffe][0x19]][0xffffffdf][0xfffffff9][0x10][0x17]yQ[0xffffffe6][0xffffff82][0xffffffa7][[0xffffffec][0xffffffe9][0xffffffba][0xffffffac]u[0xffffff83]m[0xfffffffb][0xffffffe9]+&U[0xffffffb5][0x6][0xffffff96][0x14];T#[0xffffff86]J[0x1d]8[0xfffffff4][0xffffffb0][0xffffffc7][0xffffffd0][0x2]1T[0xffffffa8]O[0xffffffa2][0xffffff99][0xfffffffe]^[0xffffff90][0x8]dU[0xffffffae][0xffffffe2][0xffffffb0]2[0xe][0x1b][0xffffffe5][0xffffff92]%[0xffffffcc][0xffffffd6][0xffffff92]\[0x15][0xffffffb0]j*@[0xffffffad][0x3]QU[0xffffffc3][0x1f][0xffffffb6][0x14][0xfffffff4]([0xffffffb8])=Z[0xffffffc5]@M[0xc][0x14][0xffffffd1][0xffffffcc][0xfffffff4]([0xffffffa2][0xffffffb9][0xffffffb5][0xffffffa1]F[0x11][0xffffffcd][0xe][0xffffffa2][0xffffffa6][0xe]D[0x11][0xffffffcd]O[0xffffff8f]"[0xffffff9a][0xffffff90][0x1e]E[0xfffffff4] =*[0xffffffe0]F[0xffffffd2][0x1a]@K[0x15][0xffffff8c][0xffffffc2][0xffffff9b]R[0xffffffa3][0x12][0xffffffd1][0xffffffbd]{[0xffffffa0][0x11]6Et[0xffffffaf].[0xffffffa8]QD[0xfffffff7]j[0xffffffe8][0xffffffdf]aC[0xfffffffd]yN[0xffffff96][0xffffffe4][\r]%[0xffffffad]A[0x8]9[0xb][0x0][0x0]"
-01:03:06.134 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000006 releasing valid endpoint
-01:03:06.134 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000005 releasing valid endpoint
-01:03:06.134 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000006 releasing endpoint
-01:03:06.134 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000005 releasing endpoint
-01:03:06.134 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000006 connection http-outgoing-0 can be kept alive for 3 MINUTES
-01:03:06.134 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000005 connection http-outgoing-2 can be kept alive for 3 MINUTES
-01:03:06.134 [TestNG-test-RegressionTests-1] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000005 connection released [route: {s}->[https://raw.githubusercontent.com:443]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
-01:03:06.134 [TestNG-test-RegressionTests-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000006 connection released [route: {s}->[https://raw.githubusercontent.com:443]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
-01:03:06.134 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient -- ep-0000000004 releasing valid endpoint
-01:03:06.134 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000004 releasing endpoint
-01:03:06.134 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000004 connection http-outgoing-1 can be kept alive for 3 MINUTES
-01:03:06.134 [TestNG-test-RegressionTests-2] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager -- ep-0000000004 connection released [route: {s}->[https://raw.githubusercontent.com:443]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
-01:03:06.134 [TestNG-test-RegressionTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using geckodriver 0.36.0 (resolved driver for Firefox 149)
-01:03:06.134 [TestNG-test-RegressionTests-3] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using geckodriver 0.36.0 (resolved driver for Firefox 149)
-01:03:06.134 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using geckodriver 0.36.0 (resolved driver for Firefox 149)
-01:03:06.146 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Storing resolution firefox=149 in cache (valid until 02:03:06 31/03/2026 IST)
-01:03:06.146 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Storing resolution firefox=149 in cache (valid until 02:03:06 31/03/2026 IST)
-01:03:06.146 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Storing resolution firefox=149 in cache (valid until 02:03:06 31/03/2026 IST)
-01:03:06.146 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Storing resolution firefox149=0.36.0 in cache (valid until 01:03:06 01/04/2026 IST)
-01:03:06.154 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Storing resolution firefox149=0.36.0 in cache (valid until 01:03:06 01/04/2026 IST)
-01:03:06.154 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Storing resolution firefox149=0.36.0 in cache (valid until 01:03:06 01/04/2026 IST)
-01:03:06.168 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver geckodriver 0.36.0 found in cache
-01:03:06.168 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver geckodriver 0.36.0 found in cache
-01:03:06.168 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver geckodriver 0.36.0 found in cache
-01:03:06.168 [TestNG-test-RegressionTests-3] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.gecko.driver as C:\Users\vishn\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
-01:03:06.169 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.gecko.driver as C:\Users\vishn\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
-01:03:06.169 [TestNG-test-RegressionTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.gecko.driver as C:\Users\vishn\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+  <testcase name="verifyLoginPage" classname="com.orange.tests.LoginTest" time="0.642">
+    <system-out><![CDATA[15:01:41.737 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "C:\Users\vishn\eclipse-workspace\orange-hrm-demo\src\test\resources\suites\regression.xml"
+15:01:41.773 [main] WARN org.testng.xml.TestNGContentHandler -- It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\vishn\eclipse-workspace\orange-hrm-demo\src\test\resources\suites\regression.xml] otherwise TestNG may fail or not work as expected.
+15:01:42.081 [main] INFO com.orange.utils.ResourceLoader -- reading resource from location: config/default.properties
+15:01:42.081 [main] INFO com.orange.utils.Config -- Test Properties
+15:01:42.081 [main] INFO com.orange.utils.Config -- ---------------------------------------
+15:01:42.081 [main] INFO com.orange.utils.Config -- selenium.grid.urlFormat=http://%s:4444/wd/hub
+15:01:42.081 [main] INFO com.orange.utils.Config -- orangeHrm.url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+15:01:42.081 [main] INFO com.orange.utils.Config -- browser=chrome
+15:01:42.081 [main] INFO com.orange.utils.Config -- selenium.grid.enabled=false
+15:01:42.081 [main] INFO com.orange.utils.Config -- selenium.grid.hubHost=localhost
+15:01:42.081 [main] INFO com.orange.utils.Config -- ---------------------------------------
+15:01:42.165 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
+15:01:42.181 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
+15:01:42.182 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
+15:01:42.600 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=146 in cache (valid until 15:43:35 12/04/2026 IST)
+15:01:42.600 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=146 in cache (valid until 15:43:35 12/04/2026 IST)
+15:01:42.600 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=146 in cache (valid until 15:43:35 12/04/2026 IST)
+15:01:42.601 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome146=146.0.7680.165 in cache (valid until 13:41:45 13/04/2026 IST)
+15:01:42.601 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome146=146.0.7680.165 in cache (valid until 13:41:45 13/04/2026 IST)
+15:01:42.601 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome146=146.0.7680.165 in cache (valid until 13:41:45 13/04/2026 IST)
+15:01:42.603 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+15:01:42.603 [TestNG-test-RegressionTests-3] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+15:01:42.603 [TestNG-test-RegressionTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+15:01:42.653 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 146.0.7680.165 found in cache
+15:01:42.656 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 146.0.7680.165 found in cache
+15:01:42.656 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 146.0.7680.165 found in cache
+15:01:42.656 [TestNG-test-RegressionTests-3] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vishn\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+15:01:42.656 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vishn\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+15:01:42.656 [TestNG-test-RegressionTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vishn\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
 ]]></system-out>
+    <system-err><![CDATA[Apr 12, 2026 3:01:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+Apr 12, 2026 3:01:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+Apr 12, 2026 3:01:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+]]></system-err>
   </testcase>
-  <testcase name="verifyLoginSuccess" classname="com.orange.tests.LoginTest" time="4.488">
-    <system-out><![CDATA[01:03:27.496 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
-01:03:27.511 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution firefox=149 in cache (valid until 02:03:06 31/03/2026 IST)
-01:03:27.511 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution firefox149=0.36.0 in cache (valid until 01:03:06 01/04/2026 IST)
-01:03:27.511 [TestNG-test-RegressionTests-3] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using geckodriver 0.36.0 (resolved driver for Firefox 149)
-01:03:27.527 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver geckodriver 0.36.0 found in cache
-01:03:27.527 [TestNG-test-RegressionTests-3] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.gecko.driver as C:\Users\vishn\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+  <testcase name="verifyLoginSuccess" classname="com.orange.tests.LoginTest" time="3.004">
+    <system-out><![CDATA[15:01:52.850 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
+15:01:52.869 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=146 in cache (valid until 15:43:35 12/04/2026 IST)
+15:01:52.871 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome146=146.0.7680.165 in cache (valid until 13:41:45 13/04/2026 IST)
+15:01:52.871 [TestNG-test-RegressionTests-3] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+15:01:52.886 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 146.0.7680.165 found in cache
+15:01:52.886 [TestNG-test-RegressionTests-3] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vishn\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
 ]]></system-out>
+    <system-err><![CDATA[Apr 12, 2026 3:01:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+]]></system-err>
   </testcase>
-  <testcase name="verifyDashboardScrollable" classname="com.orange.tests.DashboardTest" time="0.051">
-    <system-out><![CDATA[01:03:18.807 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
-01:03:19.032 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution firefox=149 in cache (valid until 02:03:06 31/03/2026 IST)
-01:03:19.032 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution firefox149=0.36.0 in cache (valid until 01:03:06 01/04/2026 IST)
-01:03:19.032 [TestNG-test-RegressionTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using geckodriver 0.36.0 (resolved driver for Firefox 149)
-01:03:19.044 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver geckodriver 0.36.0 found in cache
-01:03:19.046 [TestNG-test-RegressionTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.gecko.driver as C:\Users\vishn\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+  <testcase name="verifyDashboardScrollable" classname="com.orange.tests.DashboardTest" time="0.058">
+    <system-out><![CDATA[15:01:48.355 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
+15:01:48.383 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=146 in cache (valid until 15:43:35 12/04/2026 IST)
+15:01:48.385 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome146=146.0.7680.165 in cache (valid until 13:41:45 13/04/2026 IST)
+15:01:48.385 [TestNG-test-RegressionTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+15:01:48.406 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 146.0.7680.165 found in cache
+15:01:48.408 [TestNG-test-RegressionTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vishn\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
 Reached bottem,scroll success
 ]]></system-out>
+    <system-err><![CDATA[Apr 12, 2026 3:01:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+]]></system-err>
   </testcase>
-  <testcase name="verifyTimeClickable" classname="com.orange.tests.DashboardTest" time="3.676"/>
-  <testcase name="verifyAllElementsPresent" classname="com.orange.tests.TimeTest" time="1.106">
-    <system-out><![CDATA[01:03:21.434 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
-01:03:21.436 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution firefox=149 in cache (valid until 02:03:06 31/03/2026 IST)
-01:03:21.451 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution firefox149=0.36.0 in cache (valid until 01:03:06 01/04/2026 IST)
-01:03:21.451 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using geckodriver 0.36.0 (resolved driver for Firefox 149)
-01:03:21.465 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver geckodriver 0.36.0 found in cache
-01:03:21.468 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.gecko.driver as C:\Users\vishn\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+  <testcase name="verifyTimeClickable" classname="com.orange.tests.DashboardTest" time="1.859">
+    <system-out><![CDATA[15:01:55.203 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
+15:01:55.222 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=146 in cache (valid until 15:43:35 12/04/2026 IST)
+15:01:55.223 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome146=146.0.7680.165 in cache (valid until 13:41:45 13/04/2026 IST)
+15:01:55.223 [TestNG-test-RegressionTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+15:01:55.229 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 146.0.7680.165 found in cache
+15:01:55.229 [TestNG-test-RegressionTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vishn\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+]]></system-out>
+    <system-err><![CDATA[Apr 12, 2026 3:01:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAllElementsPresent" classname="com.orange.tests.TimeTest" time="0.648">
+    <system-out><![CDATA[15:01:50.537 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
+15:01:50.559 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=146 in cache (valid until 15:43:35 12/04/2026 IST)
+15:01:50.560 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome146=146.0.7680.165 in cache (valid until 13:41:45 13/04/2026 IST)
+15:01:50.560 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+15:01:50.574 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 146.0.7680.165 found in cache
+15:01:50.575 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vishn\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+]]></system-out>
+    <system-err><![CDATA[Apr 12, 2026 3:01:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+]]></system-err>
+  </testcase>
+  <testcase name="verifyMyRecords" classname="com.orange.tests.TimeTest" time="0.415">
+    <system-out><![CDATA[2026-04-12T09:31:58.890387400Z TestNG-test-RegressionTests-2 ERROR Log4j API could not find a logging provider.
+15:01:59.964 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
+15:01:59.979 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=146 in cache (valid until 15:43:35 12/04/2026 IST)
+15:01:59.985 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome146=146.0.7680.165 in cache (valid until 13:41:45 13/04/2026 IST)
+15:01:59.985 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+15:01:59.996 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 146.0.7680.165 found in cache
+15:01:59.996 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vishn\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+]]></system-out>
+    <system-err><![CDATA[Apr 12, 2026 3:02:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+]]></system-err>
+  </testcase>
+  <testcase name="verifyTimePageLoaded" classname="com.orange.tests.TimeTest" time="0.635">
+    <system-out><![CDATA[15:02:10.179 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
+15:02:10.191 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=146 in cache (valid until 15:43:35 12/04/2026 IST)
+15:02:10.192 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome146=146.0.7680.165 in cache (valid until 13:41:45 13/04/2026 IST)
+15:02:10.192 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+15:02:10.202 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 146.0.7680.165 found in cache
+15:02:10.202 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vishn\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+]]></system-out>
+    <system-err><![CDATA[Apr 12, 2026 3:02:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+]]></system-err>
+  </testcase>
+  <testcase name="verifyRecruitementPageLoaded" classname="com.orange.tests.RecruitmentTest" time="0.622"/>
+  <testcase name="verifySearchCandidate" classname="com.orange.tests.RecruitmentTest" time="2.655">
+    <system-out><![CDATA[10
+3
 ]]></system-out>
   </testcase>
-  <testcase name="verifyMyRecords" classname="com.orange.tests.TimeTest" time="3.182"/>
-  <testcase name="verifyTimePageLoaded" classname="com.orange.tests.TimeTest" time="1.079">
-    <system-out><![CDATA[01:03:45.617 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
-01:03:45.617 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution firefox=149 in cache (valid until 02:03:06 31/03/2026 IST)
-01:03:45.617 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution firefox149=0.36.0 in cache (valid until 01:03:06 01/04/2026 IST)
-01:03:45.617 [TestNG-test-RegressionTests-3] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using geckodriver 0.36.0 (resolved driver for Firefox 149)
-01:03:45.633 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver geckodriver 0.36.0 found in cache
-01:03:45.633 [TestNG-test-RegressionTests-3] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.gecko.driver as C:\Users\vishn\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+  <testcase name="verifyAddCandidate[Vishnu, AS, v1@gmail.com, 9999999991](1)" classname="com.orange.tests.AddCandidateTest" time="1.852">
+    <system-out><![CDATA[15:02:03.581 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
+15:02:03.594 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=146 in cache (valid until 15:43:35 12/04/2026 IST)
+15:02:03.594 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome146=146.0.7680.165 in cache (valid until 13:41:45 13/04/2026 IST)
+15:02:03.597 [TestNG-test-RegressionTests-3] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+15:02:03.597 [TestNG-test-RegressionTests-3] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 146.0.7680.165 found in cache
+15:02:03.597 [TestNG-test-RegressionTests-3] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vishn\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+15:02:03.737 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
+15:02:03.743 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=146 in cache (valid until 15:43:35 12/04/2026 IST)
+15:02:03.753 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome146=146.0.7680.165 in cache (valid until 13:41:45 13/04/2026 IST)
+15:02:03.753 [TestNG-test-RegressionTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+15:02:03.766 [TestNG-test-RegressionTests-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 146.0.7680.165 found in cache
+15:02:03.767 [TestNG-test-RegressionTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vishn\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+9
 ]]></system-out>
+    <system-err><![CDATA[Apr 12, 2026 3:02:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+Apr 12, 2026 3:02:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAddCandidate[Arun, Kumar, v2@gmail.com, 9999999992](2)" classname="com.orange.tests.AddCandidateTest" time="1.705">
+    <system-out><![CDATA[9
+]]></system-out>
+  </testcase>
+  <testcase name="verifyAddCandidate[Neha, Nair, v3@gmail.com, 9999999993](3)" classname="com.orange.tests.AddCandidateTest" time="1.707">
+    <system-out><![CDATA[15:02:24.522 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
+15:02:24.522 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=146 in cache (valid until 15:43:35 12/04/2026 IST)
+15:02:24.522 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome146=146.0.7680.165 in cache (valid until 13:41:45 13/04/2026 IST)
+15:02:24.522 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+15:02:24.522 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 146.0.7680.165 found in cache
+15:02:24.522 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vishn\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+9
+]]></system-out>
+    <system-err><![CDATA[Apr 12, 2026 3:02:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAddCandidate[Rahul, Das, v4@gmail.com, 9999999994](4)" classname="com.orange.tests.AddCandidateTest" time="1.77">
+    <system-out><![CDATA[15:02:34.589 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
+15:02:34.592 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=146 in cache (valid until 15:43:35 12/04/2026 IST)
+15:02:34.592 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome146=146.0.7680.165 in cache (valid until 13:41:45 13/04/2026 IST)
+15:02:34.592 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+15:02:34.592 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 146.0.7680.165 found in cache
+15:02:34.592 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vishn\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+9
+]]></system-out>
+    <system-err><![CDATA[Apr 12, 2026 3:02:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAddCandidatePage" classname="com.orange.tests.AddCandidateTest" time="0.599">
+    <system-out><![CDATA[15:02:46.171 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 6.3.3
+15:02:46.171 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=146 in cache (valid until 15:43:35 12/04/2026 IST)
+15:02:46.171 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome146=146.0.7680.165 in cache (valid until 13:41:45 13/04/2026 IST)
+15:02:46.171 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+15:02:46.171 [TestNG-test-RegressionTests-2] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 146.0.7680.165 found in cache
+15:02:46.171 [TestNG-test-RegressionTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\vishn\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+]]></system-out>
+    <system-err><![CDATA[Apr 12, 2026 3:02:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+]]></system-err>
   </testcase>
 </testsuite>
