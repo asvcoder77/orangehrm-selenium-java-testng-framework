@@ -1,4 +1,4 @@
-<suite name="RegressionSuite" parallel="classes" thread-count="3">
+<suite name="RegressionSuite" parallel="classes" thread-count="2">
 
     <test name="RegressionTests">
         <classes>
