@@ -11,7 +11,7 @@ pipeline {
 
         stage('Build Image') {
             steps {
-                bat 'docker build -t asv/orange:latest .'
+                bat 'docker build -t vishnu7as/orange:latest .'
             }
         }
 
