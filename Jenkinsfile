@@ -22,9 +22,9 @@ pipeline {
             steps {
                 bat '''
                 echo %DOCKER_HUB_PSW% | docker login -u %DOCKER_HUB_USR% --password-stdin
-                docker push asv/orange:latest
-                docker tag asv/orange:latest asv/orange:%BUILD_NUMBER%
-                docker push asv/orange:%BUILD_NUMBER%
+                docker push vishnu7as/orange:latest
+                docker tag vishnu7as/orange:latest vishnu7as/orange:%BUILD_NUMBER%
+                docker push vishnu7as/orange:%BUILD_NUMBER%
                 '''
             }
         }
