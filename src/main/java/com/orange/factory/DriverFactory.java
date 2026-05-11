@@ -57,8 +57,16 @@ public class DriverFactory {
             WebDriverManager.firefoxdriver().setup();
             return new FirefoxDriver();
         } else {
-            WebDriverManager.chromedriver().setup();
-            return new ChromeDriver();
+        	WebDriverManager.chromedriver().setup();
+
+        	ChromeOptions options = new ChromeOptions();
+
+        	if(Boolean.parseBoolean(Config.get(Constants.HEADLESS))) {
+        	    options.addArguments("--headless=new");
+        	    options.addArguments("--window-size=1920,1080");
+        	}
+
+        	return new ChromeDriver(options);
         }
     }
 }

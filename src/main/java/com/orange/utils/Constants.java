@@ -14,5 +14,6 @@ public class Constants {
 	public static final String FLIGHT_RESERVATION_URL = "flightReservation.url";
 	public static final String VENDOR_PORTAL_URL = "vendorPortal.url";
 	public static final String ORANGE_HRM_URL= "orangeHrm.url";
+	public static final String HEADLESS = "headless";
 
 }
